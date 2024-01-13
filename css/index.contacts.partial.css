@@ -1,3 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+.contacts_title {
+    font-family: Bebas Neue, cursive;
+    font-size: 45px;
+    color: 222323;
+}
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+.contacts_text {
+font-family: PT Sans, sans-serif;
+font-size: 16px;
+color: 717474;
+}
 .map {
     z-index: 4;
         position: absolute;
@@ -8,5 +20,5 @@
         margin: 0px;
         left: 0px;
         top: 0px;
-        opacity: 0;
+        touch-action: pan-x pan-y;
 }
