@@ -9,6 +9,7 @@ li {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  color: aliceblue;
 }
 
 body {
@@ -28,8 +29,10 @@ body {
   align-items: center;
 }
 
-.footer_logo {
+.footer__logo {
   margin-right: 10px;
+  width: 180px;
+  height: 32px;
 }
 
 .footer__navigation,
