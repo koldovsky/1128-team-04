@@ -2,15 +2,18 @@
 
 .footer__container {
   background-color: #222323;
-  display: flex;
-  float: left;
+  display: block;
+  overflow: auto;
   padding: 0;
   height: 100%;
   width: 100%;
   bottom: 0;
+  text-align: center;
 }
 .footer__column {
   padding: 20px;
+  display: inline-block;
+  vertical-align: middle;
 }
 
 .footer_divider {
@@ -47,4 +50,5 @@ h3 {
   font-size: 14px;
   color: white;
   background-color: #222323;
+  display: inline-block;
 }
