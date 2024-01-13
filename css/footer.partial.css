@@ -1,0 +1,8 @@
+.footer__container {
+    background-color: #222323;
+}
+.footer_divider {
+    height:2px;
+    width:30%;
+    background-color:#f40106;
+}
