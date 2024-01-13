@@ -1,11 +1,10 @@
-
 .contacts__main {
   z-index: index 1;
-background-color: rgb(255, 255, 255);
-margin: 0;
-padding: 0;
+  background-color: rgb(255, 255, 255);
+  margin: 0;
+  padding: 0;
 }
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
 
 .contacts__title {
   font-family: "Bebas Neue", cursive;
@@ -13,7 +12,7 @@ padding: 0;
   color: #222323;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans&display=swap");
 
 .contacts__text {
   font-family: "PT Sans", sans-serif;

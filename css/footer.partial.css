@@ -1,17 +1,17 @@
-@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans&display=swap");
 
 .footer__container {
   background-color: #222323;
+  display: flex;
   float: left;
   padding: 0;
-  min-height: 320px;
+  height: 100%;
   width: 100%;
-bottom:0;
+  bottom: 0;
 }
 .footer__column {
-  
-  padding: 20px; }
-  
+  padding: 20px;
+}
 
 .footer_divider {
   height: 2px;
@@ -31,10 +31,9 @@ h3 {
 }
 
 .footer__menu {
-  border: 10px;;
+  border: 10px;
   padding: 10px;
   list-style-type: none;
-  align-items: flex-start;
 }
 .footer__creators {
   font-family: "Bebas Neue", cursive;
