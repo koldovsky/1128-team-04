@@ -2,11 +2,9 @@
 
 .footer__container {
   background-color: #222323;
-  display: inline-table;
+  display: flow;
   overflow: auto;
-  padding: 0;
   width: 100%;
-  bottom: 0;
   
 }
 .footer__summary {
@@ -17,17 +15,20 @@
 .footer__navigation {
   float: left;
   width: 25%;
+  height: 220px;
 }
 .footer__shop {
   float: right;
   width: 25%;
+  height: 220px;
 
 }
 .footer__follow_us {
 float: right;
 width: 25%;
+height: 220px;
 }
-.footer_divider {
+.footer__divider {
   height: 2px;
   width: 30%;
   background-color: #f40106;
@@ -38,6 +39,7 @@ p,
 a {
   color: white;
   text-decoration: none;
+  
 }
 
 h3 {
@@ -48,6 +50,7 @@ h3 {
   border: 10px;
   padding: 10px;
   list-style-type: none;
+  background-color: #222323;
 }
 .footer__creators {
   font-family: "Bebas Neue", cursive;
