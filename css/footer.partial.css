@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+
 .footer__container {
   background-color: #222323;
   display: flex;
@@ -27,4 +29,13 @@ a {
   padding: 10px;
   list-style-type: none;
   align-items: flex-start;
+}
+.footer__creators {
+  font-family: "Bebas Neue", cursive;
+  font-size: 14px;
+}
+.footer__copyright {
+  font-family: "Bebas Neue", cursive;
+  font-size: 14px;
+  color: white;
 }
