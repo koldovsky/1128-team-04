@@ -1,69 +1,77 @@
 @import url("https://fonts.googleapis.com/css2?family=PT+Sans&display=swap");
+/* CSS Selectors go here */
+
+h2,
+h3,
+p,
+ul,
+li {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "PT Sans", sans-serif;
+}
 
 .footer__container {
   background-color: #222323;
-  display: flow;
-  overflow: auto;
-  width: 100%;
-  
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  padding: 20px;
 }
-.footer__summary {
-  float: left;
-  width: 25%;
-  height: 220px;
-}
-.footer__navigation {
-  float: left;
-  width: 25%;
-  height: 220px;
-}
-.footer__shop {
-  float: right;
-  width: 25%;
-  height: 220px;
 
+.footer__menu-item {
+  display: flex;
+  align-items: center;
 }
-.footer__follow_us {
-float: right;
-width: 25%;
-height: 220px;
+
+.footer_logo {
+  margin-right: 10px;
 }
+
+.footer__navigation,
+.footer__shop {
+  flex-basis: 25%;
+}
+
+.footer__navigation h3,
+.footer__shop h3,
+.footer__follow_us h3 {
+  font-weight: bold;
+}
+
 .footer__divider {
   height: 2px;
   width: 30%;
   background-color: #f40106;
 }
 
-h3,
-p,
-a {
-  color: white;
-  text-decoration: none;
-  
-}
-
-h3 {
-  font-weight: bold;
-}
-
 .footer__menu {
-  border: 10px;
-  padding: 10px;
   list-style-type: none;
-  background-color: #222323;
-}
-.footer__creators {
-  font-family: "Bebas Neue", cursive;
-  font-size: 14px;
-  color: white;
-  background-color: #222323;
+  padding: 0;
 }
 
+.footer__menu-item a {
+  text-decoration: none;
+  color: white;
+}
+
+.footer__follow_us img {
+  margin-right: 10px;
+}
+
+.footer__bottom {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer__creators,
 .footer__copyright {
   font-family: "Bebas Neue", cursive;
   font-size: 14px;
   color: white;
-  background-color: #222323;
-  
-  
 }
