@@ -15,7 +15,7 @@
 .contacts_title {
     font-family: Bebas Neue, cursive;
     font-size: 45px;
-    color: 222323;
+    color: #222323;
 }
 
 @import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
@@ -23,6 +23,6 @@
 .contacts_text {
     font-family: PT Sans, sans-serif;
     font-size: 16px;
-    color: 717474;
+    color: #717474;
 }
 
