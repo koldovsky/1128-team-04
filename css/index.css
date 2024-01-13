@@ -1,11 +1,5 @@
 @import "common.css";
-<<<<<<< HEAD
-@import "index.whychooseus.css"
-@import "footer.partial.css"
-@import "index.contacts.partial.css"
-@import "index.maincollections.partial.css"
-=======
 @import "index.whychooseus.css";
 @import "footer.partial.css";
 @import "index.contacts.partial.css";
->>>>>>> 0d56573baa093c2ee0a398fdf01bf9063971e45e
+@import "index.maincollections.partial.css";
