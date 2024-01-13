@@ -9,12 +9,24 @@
   bottom: 0;
   
 }
-.footer__column {
-  padding: 20px;
-  
-  vertical-align: middle;
+.footer__summary {
+  float: left;
+  width: 25%;
+  height: 220px;
 }
+.footer__navigation {
+  float: left;
+  width: 25%;
+}
+.footer__shop {
+  float: right;
+  width: 25%;
 
+}
+.footer__follow_us {
+float: right;
+width: 25%;
+}
 .footer_divider {
   height: 2px;
   width: 30%;
