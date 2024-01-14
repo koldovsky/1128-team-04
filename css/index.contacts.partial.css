@@ -4,13 +4,12 @@
   max-width:600px;
   margin:40px auto;
   border-radius: 4px;
-  box-shadow: 0 4px 10px 4px;
+  box-shadow: 0 1px 1px 1px;
 }
 
-@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
 
 .contacts__title {
-  font-family: "Bebas Neue", cursive;
+  font-family: Impact, cursive;
   font-size: 45px;
   color: #222323;
 }
@@ -18,6 +17,12 @@
 @import url("https://fonts.googleapis.com/css2?family=PT+Sans&display=swap");
 
 .contacts__text {
+  font-family: "PT Sans", sans-serif;
+  font-size: 16px;
+  color: #717474;
+  text-decoration: none;
+}
+.contacts__text a {
   font-family: "PT Sans", sans-serif;
   font-size: 16px;
   color: #717474;
