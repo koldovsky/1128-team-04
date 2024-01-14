@@ -7,6 +7,7 @@
   padding: 20px;
 }
 
+
 .footer__menu-item {
   display: flex;
   align-items: center;
@@ -50,6 +51,7 @@
 }
 
 .footer__bottom {
+  background-color: #222323;
   margin-top: 20px;
   display: flex;
   justify-content: space-between;
