@@ -4,12 +4,12 @@
   max-width:600px;
   margin:40px auto;
   border-radius: 4px;
-  box-shadow: 0 1px 1px 1px;
+  
 }
 
 
 .contacts__title {
-  font-family: Impact, cursive;
+  font-family: "PT Sans", cursive;
   font-size: 45px;
   color: #222323;
 }
