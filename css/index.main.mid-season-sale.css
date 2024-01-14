@@ -1,0 +1,59 @@
+.mid-season-sale__header {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.mid-season-sale__row {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.mid-season-sale__title,
+.mid-season-sale__text {
+  text-align: center;
+}
+
+.mid-season-sale__header {
+  padding: 7% 15%;
+}
+
+.mid-season-sale__title {
+  font-size: 38px;
+  font-family: "bebasNeue"; /* Provide a fallback font family in case "Bebas Neue" is not available */
+  font-style: cursive;
+  font-weight: 600;
+  color: #222323;
+}
+.mid-season-sale__dot {
+  color: red;
+  font-size: 50px;
+}
+.mid-season-sale__text {
+  font-family: "PTSans";
+  font-weight: 400;
+  color: var(--custom-gray);
+  font-size: 20px;
+}
+.mid-season-sale__line {
+  background-color: var(--custom-gray);
+  height: 3px;
+  width: 15vw;
+  align-self: center;
+}
+
+
+.column__subheading {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    justify-content: center;
+    align-items: fel;
+    gap: 10px;
+    padding-left: 10px;
+   
+}
+.column__image-container {
+    padding-left: 10px;
+}

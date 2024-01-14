@@ -1,15 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans&display=swap");
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 :root {
-    scroll-behavior: smooth;
+  --red-color: #ea0909;
+  --custom-gray: #717474;
+  scroll-behavior: smooth;
+
+  font-family: "PT Sans", sans-serif;
 }
 
-
-
 a {
-    text-decoration: none;
+  text-decoration: none;
+}
+
+@font-face {
+  font-family: 'PTSans';
+  src: url('../fonts/PTSans-Regular.ttf') format('truetype'); /* Update the path accordingly */
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'bebasNeue';
+  src: url('../fonts/BebasNeue-Regular.woff2') format('woff2'); /* Update the path accordingly */
+  font-weight: normal;
+  font-style: normal;
 }

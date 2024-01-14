@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=PT+Sans&display=swap");
+
 /* CSS Selectors go here */
 
 h2,
@@ -12,9 +12,7 @@ li {
   color: aliceblue;
 }
 
-body {
-  font-family: "PT Sans", sans-serif;
-}
+
 
 .footer__container {
   background-color: #222323;
