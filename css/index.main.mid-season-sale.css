@@ -1,59 +1,66 @@
-.mid-season-sale__header {
+.row__column {
   display: flex;
   flex-direction: column;
+  align-content: flex-start;
   gap: 10px;
+}
+.row__column--item-button {
+  align-self: self-start;
+}
+.mid-season-sale__container {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+.row__column--image {
+  width: 100%;
 }
 
 .mid-season-sale__row {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  grid-gap: 30px;
+  margin: 20px;
 }
-
-.mid-season-sale__title,
-.mid-season-sale__text {
-  text-align: center;
-}
-
 .mid-season-sale__header {
-  padding: 7% 15%;
-}
-
-.mid-season-sale__title {
+  padding-top: 40px;
+  text-align: center;
+  font-family: "bebasNeue";
+  color: var(--custom-black);
+  font-weight: 500;
   font-size: 38px;
-  font-family: "bebasNeue"; /* Provide a fallback font family in case "Bebas Neue" is not available */
-  font-style: cursive;
-  font-weight: 600;
-  color: #222323;
 }
 .mid-season-sale__dot {
-  color: red;
-  font-size: 50px;
+  padding-top: 25px;
+  margin-top: 25px;
+  color: var(--red-color);
+  font-size: 40px;
 }
-.mid-season-sale__text {
-  font-family: "PTSans";
-  font-weight: 400;
+.mid-season-sale__subtitle {
+  text-align: center;
+  padding-left: 10px;
+  padding-right: 10px;
   color: var(--custom-gray);
   font-size: 20px;
+  font-family: "PTSans1";
+  margin-top: 15px;
+  margin-bottom: 25px;
 }
-.mid-season-sale__line {
-  background-color: var(--custom-gray);
-  height: 3px;
-  width: 15vw;
-  align-self: center;
+.row__column--item-name {
+  color: var(--custom-gray);
+  font-size: 18px;
+  font-family: "PTSans1";
 }
-
-
-.column__subheading {
-    display: flex;
-    flex-direction: column;
-    flex: 1;
-    justify-content: center;
-    align-items: fel;
-    gap: 10px;
-    padding-left: 10px;
-   
+.row__column--item-price {
+  color: var(--red-color);
+  font-weight: bold;
+  font-size: 18px;
 }
-.column__image-container {
-    padding-left: 10px;
+.row__column--item-button {
+  background-color: var(--custom-black);
+  text-align: center;
+  width: 130px;
+  height: 50px;
+  color: white;
+  font-size: 14px;
+  font-weight: 600;
 }
