@@ -1,6 +1,9 @@
 .row__column {
   display: flex;
- 
+  flex-direction: column;
+  align-content: flex-start;
+  gap: 10px;
+  justify-content: center;
 }
 .row__column--item-button {
   align-self: self-start;
@@ -14,7 +17,9 @@
 }
 
 .mid-season-sale__row {
-  
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  grid-gap: 30px;
   margin: 20px;
 }
 .mid-season-sale__header {
