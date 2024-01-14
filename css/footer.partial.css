@@ -42,7 +42,7 @@
 
 .footer__menu-item a {
   text-decoration: none;
-  color: white;
+  color: red;
 }
 
 .footer__follow_us img {
@@ -59,6 +59,6 @@
 .footer__copyright {
   font-family: "Bebas Neue", cursive;
   font-size: 14px;
-  color: white;
+  color: red;
   background-color: #222323;
 }
