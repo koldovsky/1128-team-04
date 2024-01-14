@@ -21,7 +21,7 @@
   justify-content: space-between;
   align-items: stretch;
   padding: 20px;
-  position: absolute;
+  position: relative;
 		width: 100%;
 		bottom: 0;
 		left: 0;
