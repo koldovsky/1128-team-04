@@ -6,10 +6,7 @@
 
 .footer__container {
   background-color: #222323;
-  display: flex;
-  justify-content: space-between;
-  align-items: stretch;
-  padding: 20px;
+ 
   
 	
 }
@@ -58,8 +55,7 @@
 
 .footer__bottom {
   margin-top: 20px;
-  display: flex;
-  justify-content: space-between;
+ 
 }
 
 .footer__creators,
