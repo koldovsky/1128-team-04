@@ -40,7 +40,7 @@
   padding: 0;
 }
 
-.footer__menu-item a {
+.footer__menu-item, .footer__text, .footer__caption {
   text-decoration: none;
   color: antiquewhite;
 }
