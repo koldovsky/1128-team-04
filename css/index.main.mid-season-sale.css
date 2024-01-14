@@ -3,6 +3,7 @@
   flex-direction: column;
   align-content: flex-start;
   gap: 10px;
+  justify-content: center;
 }
 .row__column--item-button {
   align-self: self-start;
@@ -64,3 +65,10 @@
   font-size: 14px;
   font-weight: 600;
 }
+/* .mid-season-sale {
+  display: flex;
+  flex-direction: column;
+}
+.row__column {
+  align-self: center;
+} */
