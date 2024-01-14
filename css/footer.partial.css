@@ -59,7 +59,8 @@
 
 .footer__bottom {
   margin-top: 20px;
- 
+  display: flex;
+  justify-content: space-between;
 }
 
 .footer__creators,
