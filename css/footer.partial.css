@@ -7,9 +7,6 @@
 .footer__copyright,
 .footer__menu-item,
 .footer__menu {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
   color: aliceblue;
 }
 
