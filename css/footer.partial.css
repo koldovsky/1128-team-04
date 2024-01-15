@@ -1,29 +1,12 @@
 
-
-
-.footer__text,
-.footer__caption,
-.footer__creators,
-.footer__copyright,
-.footer__menu-item,
-.footer__menu {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  color: aliceblue;
-}
-
-
-
 .footer__container {
   background-color: #222323;
   display: flex;
   justify-content: space-between;
   align-items: stretch;
   padding: 20px;
-  width: 100%;
-	
 }
+
 
 .footer__menu-item {
   display: flex;
@@ -58,9 +41,14 @@
   padding: 0;
 }
 
-.footer__menu-item a {
+.footer__menu-item a, .footer__text, .footer__caption {
   text-decoration: none;
-  color: white;
+  color: antiquewhite;
+}
+
+.footer__menu-item a:hover {
+color: dimgray;
+background-color: aliceblue;
 }
 
 .footer__follow_us img {
@@ -68,6 +56,7 @@
 }
 
 .footer__bottom {
+  background-color: #222323;
   margin-top: 20px;
   display: flex;
   justify-content: space-between;
@@ -77,6 +66,6 @@
 .footer__copyright {
   font-family: "Bebas Neue", cursive;
   font-size: 14px;
-  color: white;
+  color: antiquewhite;
   background-color: #222323;
 }
