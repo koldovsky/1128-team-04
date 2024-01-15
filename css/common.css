@@ -9,7 +9,8 @@
   --red-color: #f40106;
   --custom-gray: #717474;
   --custom-black: #222323;
-  
+  --wcu-advantages-svg-color: #9b9b9b;
+  --wcu-advantages-hr-color: #e0e0e0;
   scroll-behavior: smooth;
 
   font-family: "PT Sans", sans-serif;
@@ -30,4 +31,9 @@ a {
   src: url("../fonts/BebasNeue-Regular.woff2") format("woff2"); /* Update the path accordingly */
   font-weight: normal;
   font-style: normal;
+}
+
+img {
+  display: block;
+  width: 100%;
 }
