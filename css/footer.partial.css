@@ -12,8 +12,6 @@
 
 .footer__menu-item {
   display: flex;
-  align-items: center;
-  justify-content: center;
   line-height: 35px;
 }
 
@@ -26,7 +24,7 @@
 
 .footer__navigation,
 .footer__shop {
-  flex-basis: 27%;
+  flex-basis: 25%;
 }
 
 .footer__navigation h3,
