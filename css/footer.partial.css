@@ -5,6 +5,7 @@
   justify-content: space-between;
   align-items: stretch;
   padding: 20px;
+  min-width: 438px;
 }
 
 
@@ -15,8 +16,9 @@
 
 .footer__logo {
   margin-right: 10px;
-  width: 180px;
-  height: 50px;
+  min-width: 180px;
+  min-height: 43px;
+  line-height: 16px;
 }
 
 .footer__navigation,
@@ -39,6 +41,7 @@
 .footer__menu {
   list-style-type: none;
   padding: 0;
+  line-height: 16px;
 }
 
 .footer__menu-item a, .footer__text, .footer__caption {
@@ -48,7 +51,7 @@
 
 .footer__menu-item a:hover {
 color: #f40106;
-background-color: aliceblue;
+text-decoration: underline;
 }
 
 .footer__follow_us img {
