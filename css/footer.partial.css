@@ -3,8 +3,8 @@
 .footer__container {
   background-color: #222323;
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  justify-content: space-evenly;
+  align-items: stretch;
   padding: 70px 32px 45px;
   
 }
