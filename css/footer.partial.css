@@ -34,6 +34,7 @@
   font-weight: bold;
   line-height: 60px;
   font-family: "Bebas Neue", cursive;
+  align-items: center;
 }
 
 .footer__divider {
