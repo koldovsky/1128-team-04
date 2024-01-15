@@ -8,6 +8,9 @@
 :root {
   --red-color: #ea0909;
   --custom-gray: #717474;
+  --wcu-span-dot: #f40106;
+  --wcu-set-title-color: #222323;
+  --wcu-set-hr-red: #f40106;
   scroll-behavior: smooth;
 
   font-family: "PT Sans", sans-serif;

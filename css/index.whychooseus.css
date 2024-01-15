@@ -1,0 +1,83 @@
+.whychooseus {
+    padding-top: 90px;
+    padding-bottom: 60px;
+}
+
+.wcu-set {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+@media (min-width: 768px) {
+    .wcu-set {
+        flex-direction: row;
+        flex-wrap: nowrap;
+    }
+
+    .wcu-set__newarrivals {
+        flex: 50%;
+        min-width: 328.600px;
+    }
+
+    .wcu-set__trainers, .wcu-set__hotsale {
+        flex: 25%;
+        min-width: 149.300px;
+    }
+}
+
+.wcu-set div {
+    min-height: 303.128px;
+    min-width: 424.800px;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin-bottom: 10px;
+    margin: 0 15px;
+    margin-top: 15px;
+}
+
+.wcu-set div h2, a {
+    padding-left: 15px;
+    color: var(--wcu-set-title-color);
+}
+
+.wcu-set div a{
+    padding-bottom: 15px;
+    padding-top: 7px;
+}
+
+.wcu-set div a:hover {
+    text-decoration: underline;
+}
+
+.wcu-set div h2 {
+    padding-bottom: 7px;
+}
+
+.wcu-set__newarrivals {
+    background-image: url(../img/newarrivals.svg);
+}
+
+.wcu-set__trainers {
+    background-image: url(../img/trainers.png);
+}
+
+.wcu-set__hotsale {
+    background-image: url(../img/hotsale.png);
+}
+
+.wcu-set div hr {
+    border-color: var(--wcu-set-hr-red);
+    width: 15%;
+    size: 2px;
+    margin-left: 15px;
+}
+
+.wcudot {
+    color: var(--wcu-span-dot);
+}
