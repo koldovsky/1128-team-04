@@ -29,6 +29,8 @@
   font-size: 40px;
   color: #222323;
   font-weight: 400;
+  padding: 0;
+  margin: 0;
 }
 
 @import url("https://fonts.googleapis.com/css2?family=PT+Sans&display=swap");
