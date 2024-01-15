@@ -19,12 +19,11 @@
 .mid-season-sale__row {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
- 
+
   grid-gap: 10px;
   /* weird solution */
   padding-left: 5%;
   padding-right: 5%;
- 
 }
 .mid-season-sale__header {
   padding-top: 40px;
@@ -79,8 +78,8 @@
   justify-content: center;
 }
 @media (min-width: 700px) {
-  .mid-season-sale__header  {
-   font-size: 70px;
+  .mid-season-sale__header {
+    font-size: 70px;
   }
   .mid-season-sale__dot {
     font-size: 55px;
@@ -88,5 +87,4 @@
   .mid-season-sale__subtitle {
     font-size: 30px;
   }
-
 }
