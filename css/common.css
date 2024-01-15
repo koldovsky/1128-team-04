@@ -6,11 +6,10 @@
 }
 
 :root {
-  --red-color: #ea0909;
+  --red-color: #f40106;
   --custom-gray: #717474;
-  --wcu-span-dot: #f40106;
-  --wcu-set-title-color: #222323;
-  --wcu-set-hr-red: #f40106;
+  --custom-black: #222323;
+  
   scroll-behavior: smooth;
 
   font-family: "PT Sans", sans-serif;
@@ -21,14 +20,14 @@ a {
 }
 
 @font-face {
-  font-family: 'PTSans';
-  src: url('../fonts/PTSans-Regular.ttf') format('truetype'); /* Update the path accordingly */
+  font-family: "PTSans1";
+  src: url("../fonts/PTSans-Regular.ttf") format("truetype"); /* Update the path accordingly */
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
-  font-family: 'bebasNeue';
-  src: url('../fonts/BebasNeue-Regular.woff2') format('woff2'); /* Update the path accordingly */
+  font-family: "bebasNeue";
+  src: url("../fonts/BebasNeue-Regular.woff2") format("woff2"); /* Update the path accordingly */
   font-weight: normal;
   font-style: normal;
 }

@@ -43,7 +43,7 @@
 
 .wcu-set div h2, a {
     padding-left: 15px;
-    color: var(--wcu-set-title-color);
+    color: var(--custom-black);
 }
 
 .wcu-set div a{
@@ -72,12 +72,12 @@
 }
 
 .wcu-set div hr {
-    border-color: var(--wcu-set-hr-red);
+    border-color: var(--red-color);
     width: 15%;
     size: 2px;
     margin-left: 15px;
 }
 
 .wcudot {
-    color: var(--wcu-span-dot);
+    color: var(--red-color);
 }
