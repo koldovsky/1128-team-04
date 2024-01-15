@@ -44,7 +44,6 @@
 
 .footer__menu {
   list-style-type: none;
-  padding: 0;
   line-height: 16px;
 }
 
@@ -58,7 +57,7 @@ color: #f40106;
 text-decoration: underline;
 }
 
-.footer__follow_us img {
+.footer__follow_us a {
   margin-right: 10px;
   display: flex;
   font-family: "Bebas Neue",
@@ -70,7 +69,6 @@ text-decoration: underline;
 
 .footer__bottom {
   background-color: #222323;
-  margin-top: 20px;
   display: flex;
   justify-content: space-between;
 }
