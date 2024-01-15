@@ -87,16 +87,32 @@
 /* advantages */
 
 .advantages__parts div svg {
-    width: 50px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
     color: var(--wcu-advantages-svg-color);
 }
 
 .advantages {
-    padding: 50px 15px 90px 15px;
+    padding: 50px 0 90px 0;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+}
+
+.advantages__title-container {
+    padding: 0 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.advantages__title-text {
+    width: 189.68px;
+    height: 49.6px;
+    padding: 0 10px;
+    white-space: nowrap;
 }
 
 .advantages hr {
@@ -107,10 +123,43 @@
     border-radius: 10px;
 }
 
-.advantages h2 {
-    font-size: 2.375em;
+.advantages__title-text h2 {
+    font-size: 38px;
+    font-family: 'Bebas Neue', sans-serif;
+    width: 100%;
 }
 
 .advantages p {
     font-size: 1.25em;
+    font-family: "PT Sans", sans-serif;
+    color: var(--custom-gray); 
+}
+
+.advantages__paragraph-text {
+    width: 211.46px;
+    height: 55.16px;
+    text-align: center;
+}
+
+.advantages-part {
+    width: 268.800px;
+    height: 263.513px;
+    border: 2px solid var(--wcu-advantages-hr-color);
+    margin: 50px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.advantages-part p {
+    text-align: center;
+    font-size: 1em;
+    color: var(--custom-gray);
+    padding: 10px 15px;
+}
+
+.advantages__svg-container {
+    width: 50px;
+    height: 50px;
 }
