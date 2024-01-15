@@ -11,6 +11,9 @@
 .footer__menu-item {
   display: flex;
   align-items: center;
+  justify-content: center;
+  margin: -10px -5px;
+  line-height: 16px;
 }
 
 .footer__logo {
@@ -22,13 +25,14 @@
 
 .footer__navigation,
 .footer__shop {
-  flex-basis: 25%;
+  flex-basis: 17%;
 }
 
 .footer__navigation h3,
 .footer__shop h3,
 .footer__follow_us h3 {
   font-weight: bold;
+  line-height: 40px;
 }
 
 .footer__divider {
@@ -76,4 +80,6 @@ text-decoration: underline;
   font-size: 14px;
   color: antiquewhite;
   background-color: #222323;
+  display: flex;
+  flex: wrap;
 }
