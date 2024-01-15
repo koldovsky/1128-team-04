@@ -1,17 +1,40 @@
+
+.contacts {
+  position: relative;
+}
 .contacts__main {
+  position: absolute;
+  top: 40px;
+  right: 128px;
   background-color: #F5F5F5;
   padding: 40px;
-  max-width:600px;
-  margin:40px auto;
+  min-width: 280px;
+  min-height: 320px;
+  margin: 40px auto;
   border-radius: 4px;
-  
+  text-align: center;
+  background-attachment: scroll;
+  line-height: 27px;
+  overflow-wrap: break-word;
 }
-
-
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+.header__dot {
+  font-family: "Bebas Neue", cursive;
+  font-size: 40px;
+  font-stretch: 100%;
+  color: #f40106; 
+   padding: 0;
+  margin: 0;
+  line-height: 42px;
+}
 .contacts__title {
-  font-family: "PT Sans", cursive;
-  font-size: 45px;
+  font-family: "Bebas Neue", cursive;
+  font-size: 40px;
   color: #222323;
+  font-weight: 400;
+  padding: 0;
+  margin: 0;
+  line-height: 42px;
 }
 
 @import url("https://fonts.googleapis.com/css2?family=PT+Sans&display=swap");
@@ -32,6 +55,6 @@
 }
 
 .contacts__text a:hover {
-  color: blue;
+  text-decoration: underline;
 }
 
