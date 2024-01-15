@@ -4,8 +4,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 20px;
-  min-width: 438px;
+  padding: 70px 32px 45px;
 }
 
 
@@ -16,8 +15,8 @@
 
 .footer__logo {
   margin-right: 10px;
-  min-width: 180px;
-  min-height: 43px;
+  width: 180px;
+  height: 43px;
   line-height: 16px;
 }
 
