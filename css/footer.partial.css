@@ -6,7 +6,7 @@
   justify-content: space-between;
   align-items: center;
   padding: 70px 32px 45px;
-  width: 100%;
+  
 }
 
 
@@ -56,7 +56,7 @@ color: #f40106;
 text-decoration: underline;
 }
 
-.footer__follow_us a {
+.footer__follow_us {
   margin-right: 10px;
   display: flex;
   font-family: "Bebas Neue",
