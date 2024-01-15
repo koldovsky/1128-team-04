@@ -54,6 +54,10 @@ background-color: aliceblue;
 .footer__follow_us img {
   margin-right: 10px;
 }
+.media_logo {
+  min-weight: 28px;
+  min-height: 28px;
+}
 
 .footer__bottom {
   background-color: #222323;
