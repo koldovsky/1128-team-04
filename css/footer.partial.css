@@ -23,7 +23,8 @@
 }
 
 .footer__navigation,
-.footer__shop {
+.footer__shop,
+.footer__follow_us {
   flex-basis: 25%;
 }
 
