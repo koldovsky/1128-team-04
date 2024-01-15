@@ -1,52 +1,49 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
+.footer {
+  background-color: #222323;
+  color: white;
+}
 
 .footer__container {
-  background-color: #222323;
   display: flex;
-  justify-content: space-evenly;
-  align-items: stretch;
-  padding: 70px 32px 45px;
+  justify-content: space-around;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  padding: 30px;
 }
 
-.footer__menu-item {
-  display: flex;
-  align-items: center; 
-  line-height: 1.2; 
-
-.footer__logo {
-  margin-right: 10px;
-  width: 180px;
-  height: 43px;
-  line-height: 43px; 
-}
-
+.footer__summary,
 .footer__navigation,
 .footer__shop,
 .footer__follow_us {
-  flex-basis: 25%;
+  flex: 1;
+  max-width: 300px;
+  margin-bottom: 20px;
 }
 
-.footer__navigation h3,
-.footer__shop h3,
-.footer__follow_us h3 {
-  font-weight: 400;
-  font-size: 23px;
-  color: white;
-  margin-bottom: 10px; 
-  font-family: "Bebas Neue", cursive;
+.footer__text {
+  line-height: 1.5;
+}
+
+.footer__caption {
+  font-size: 20px;
+  margin-bottom: 10px;
 }
 
 .footer__divider {
   height: 2px;
-  width: 30%;
+  width: 50%;
   background-color: #f40106;
-  margin-bottom: 10px; /* Add spacing below the divider */
+  margin-bottom: 15px;
 }
 
 .footer__menu {
   list-style-type: none;
-  line-height: 1.5; 
+}
+
+.footer__menu-item {
+  margin-bottom: 8px;
 }
 
 .footer__menu-item a,
@@ -54,7 +51,6 @@
 .footer__caption {
   text-decoration: none;
   color: white;
-  transition: color 0.3s; 
 }
 
 .footer__menu-item a:hover {
@@ -62,25 +58,21 @@
   text-decoration: underline;
 }
 
-.footer__follow_us {
-  margin-right: 10px;
-}
-
 .media_logo {
-  width: 24px;
-  height: 24px;
-  margin-right: 10px; 
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
 }
 
 .footer__bottom {
   background-color: #222323;
-  display: flex;
-  justify-content: space-between;
-  padding: 15px 32px; 
+  color: white;
+  text-align: center;
+  padding: 15px;
 }
 
 .footer__creators,
 .footer__copyright {
   font-size: 14px;
-  color: white;
-  
+  margin: 5px 0;
+}
