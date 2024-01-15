@@ -1,4 +1,11 @@
+
+.contacts {
+  position: relative;
+}
 .contacts__main {
+  position: absolute;
+  top: 67px;
+  right: 132px;
   background-color: #F5F5F5;
   padding: 40px;
   min-width: 280px;
