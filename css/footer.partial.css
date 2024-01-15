@@ -13,8 +13,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: -10px -5px;
-  line-height: 16px;
+  line-height: 35px;
 }
 
 .footer__logo {
@@ -26,14 +25,14 @@
 
 .footer__navigation,
 .footer__shop {
-  flex-basis: 17%;
+  flex-basis: 27%;
 }
 
 .footer__navigation h3,
 .footer__shop h3,
 .footer__follow_us h3 {
   font-weight: bold;
-  line-height: 40px;
+  line-height: 60px;
   font-family: "Bebas Neue", cursive;
 }
 
