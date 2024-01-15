@@ -31,10 +31,11 @@
 .footer__navigation h3,
 .footer__shop h3,
 .footer__follow_us h3 {
-  font-weight: bold;
+  font-weight: 400;
   line-height: 60px;
   font-family: "Bebas Neue", cursive;
   align-items: center;
+  font-size: 23px;
 }
 
 .footer__divider {
@@ -46,11 +47,12 @@
 .footer__menu {
   list-style-type: none;
   line-height: 16px;
+  font-size: 16px;
 }
 
 .footer__menu-item a, .footer__text, .footer__caption {
   text-decoration: none;
-  color: antiquewhite;
+  color: #fff;
 }
 
 .footer__menu-item a:hover {
@@ -78,7 +80,7 @@ text-decoration: underline;
 .footer__copyright {
   font-family: "Bebas Neue", cursive;
   font-size: 14px;
-  color: antiquewhite;
+  color: #fff;
   background-color: #222323;
   display: flex;
   flex: wrap;
