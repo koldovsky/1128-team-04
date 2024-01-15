@@ -21,11 +21,17 @@
   font-size: 16px;
   color: #717474;
   text-decoration: none;
+  align-items: center;
 }
 .contacts__text a {
   font-family: "PT Sans", sans-serif;
   font-size: 16px;
   color: #717474;
   text-decoration: none;
+  align-items: center;
+}
+
+.contacts__text a:hover, .contacts__text:hover {
+  background-color: darkgray;
 }
 
