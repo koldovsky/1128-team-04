@@ -11,8 +11,10 @@
   --red-color: #f40106;
   --custom-gray: #717474;
   --custom-black: #222323;
+  --custom-darkgray: #262626;
   --wcu-advantages-svg-color: #9b9b9b;
   --wcu-advantages-hr-color: #e0e0e0;
+  --text-color-for-dark-background: white;
   scroll-behavior: smooth;
 
   font-family: "PT Sans", sans-serif;

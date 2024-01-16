@@ -1,0 +1,53 @@
+.timer {
+    text-align: center;
+    font-family: "bebasNeue";
+    color: white;
+    background-color: var(--custom-darkgray);
+}
+
+.main-message-for-customer{
+    font-size: 124px;
+}
+
+.red-dot{
+    font-size: 124px;
+    color: red;
+}
+
+.new-cost {
+    font-size: 42px;
+    color: red;
+}
+
+.old-cost {
+    font-size: 23px;
+    text-decoration: line-through;
+}
+
+.p {
+    font-size: 16px;
+}
+
+.countdown {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  
+.countdown > div {
+    margin: 10px; 
+    padding: 15px; 
+    border: 1px solid #ffffff; 
+    border-radius: 10px; 
+}
+
+.more-details {
+    color: white;
+    font-weight: bold;
+}
+
+.more-details::after {
+    content: "\2192"; 
+    margin-left: 5px; 
+}
