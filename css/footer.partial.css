@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+.footer {
+  background-color: #222323;
+  color: white;
+}
+
+.footer__container {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  padding: 30px;
+}
+
+.footer__summary,
+.footer__navigation,
+.footer__shop,
+.footer__follow_us {
+  flex: 1;
+  max-width: 300px;
+  margin-bottom: 20px;
+}
+
+.footer__text {
+  line-height: 1.5;
+}
+
+.footer__caption {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.footer__divider {
+  height: 2px;
+  width: 50%;
+  background-color: #f40106;
+  margin-bottom: 15px;
+}
+
+.footer__menu {
+  list-style-type: none;
+}
+
+.footer__menu-item {
+  margin-bottom: 8px;
+}
+
+.footer__menu-item a,
+.footer__text,
+.footer__caption {
+  text-decoration: none;
+  color: white;
+}
+
+.footer__menu-item a:hover {
+  color: #f40106;
+  text-decoration: underline;
+}
+
+.media_logo {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+}
+
+.footer__bottom {
+  background-color: #222323;
+  color: white;
+  text-align: center;
+  padding: 15px;
+}
+
+.footer__creators,
+.footer__copyright {
+  font-size: 14px;
+  margin: 5px 0;
+}
