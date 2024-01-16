@@ -2,7 +2,9 @@
     <div class="main-collection__body">
         <div class="main-collection__header">
             <div class="main-collection__title">
-                <h2> MAIN COLLECTION.</h2>
+                <h2 class="main-collection__text-content"> 
+                    <span>MAIN COLLECTION</span><span class="main-collection__dot">.</span>
+                </h2>
             </div> 
             <div class="main-collection__divider-container">
                 <div class="divider-component"></div>
@@ -13,18 +15,18 @@
         </div>
         <div class="main-collection__content">
             <div class="main-collection__nav">
-                <div class="main-collection__nav-item">
+                <div role="button" class="main-collection__nav-item" >
                     Women
                 </div>
-                <div class="main-collection__nav-item">
+                <div role="button" class="main-collection__nav-item">
                     Men
                 </div>
-                <div class="main-collection__nav-item">
+                <div role="button" class="main-collection__nav-item">
                     Shoes
                 </div>
             </div>
             <div class="main-collection__column">
-                <div class="main-collection__column-women">
+                <div class="main-collection__column" data-hidden="false">
 
                     <div class="main-collection__item">
                         <div class="main-collection__image-container">
@@ -33,9 +35,7 @@
                             </a>
                         </div>
                         <div class="main-collection__subheading">
-                            <a href="#">
-                                Puma Sport Bra
-                            </a>
+                            <a href="#">Puma Sport Bra</a>
                         </div>
                         <div class="main-collection__price">$12.00</div>
                         <div class="main-collection__button-container">
@@ -78,7 +78,7 @@
                     </div>
                 </div>
     
-                <div class="main-collection__column-men">
+                <div class="main-collection__column" data-hidden="true">
 
                     <div class="main-collection__item">
                         <div class="main-collection__image-container">
@@ -132,7 +132,7 @@
                     </div>
                 </div>
     
-                <div class="main-collection__column-shoes">
+                <div class="main-collection__column" data-hidden="true">
                     
                     <div class="main-collection__item">
                         <div class="main-collection__image-container">
