@@ -1,0 +1,183 @@
+/* Apply general styling to the main collection section */
+.main-collection {
+    padding-top: 90px;
+    padding-bottom: 90px;
+    display: block;
+    min-width: 320px;
+}
+
+.main-collection__body{
+    padding-left: 24px;
+    padding-right: 24px;
+    margin: 0 auto;
+}
+
+/* Style the header */
+.main-collection__header {
+    text-align: center;
+    margin-bottom: 20px;
+    justify-content: center;
+    padding-left: 15px;
+    padding-right: 15px;
+
+}
+
+.main-collection__title {
+    font-size: 38px;
+   
+}
+
+.main-collection__text-content{
+    display: inline;
+    height: auto;
+    width: auto;
+    font-size: 38px;
+    color: var(--custom-black);
+    font-family: "bebasNeue";
+    font-weight: 400;
+}
+
+.main-collection__dot{
+    color: var(--red-color);
+}
+
+.main-collection__divider-container{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+/* Style the divider component */
+.divider-component {
+    width: 8%;
+    height: 2px;
+    background-color: var(--wcu-advantages-hr-color);
+}
+
+/* Style the text */
+.main-collection__text {
+    font-size: 20px;
+    color: var(--custom-gray);
+}
+
+.main-collection__content{
+    margin-top: 45px;
+}
+
+/* Style the navigation */
+.main-collection__nav {
+    margin-left: -15px;
+    margin-bottom: 30px;
+    padding-left: 15px;
+    padding-right: 15px;
+    display: inline-flex;
+}
+
+.main-collection__nav-item {
+    align-items: center;
+    cursor: pointer;
+    padding: 15px 20px;
+    border-bottom-color: var(--red-color);
+    font-family: "PTSans1";
+    color: var(--custom-gray);
+}
+
+/* Default styles for all screen sizes */
+.main-collection__column {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.main-collection__column-inner{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -15px;
+    justify-content: center;
+}
+
+/* Style the items within each column */
+.main-collection__item {
+    flex: 1 0 calc(33.33% - 20px); /* Set the initial width for three items per row with some spacing */
+    padding: 0 15px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    gap: 10px;
+}
+
+
+/* Media query for screen sizes below 767px */
+@media (max-width: 767px) {
+    .main-collection__item {
+        flex: 1 0 100%; /* Make each item take up the full width */
+        margin-top: 50px;
+    }
+
+    .main-collection__item:first-child{
+        margin-top: 0;
+    }
+}
+
+/* Media query for screen sizes between 767px and 991px */
+@media (min-width: 768px) and (max-width: 991px) {
+    .main-collection__item {
+        flex: 1 0 calc(50% - 20px); /* Set the width for two items per row with spacing */
+        margin-top: 0;
+    }
+
+    .main-collection__item:nth-child(2n+1) {
+        margin-top: 30px; /* Set margin-top for the second item in a row */
+    }
+
+    .main-collection__item:first-child{
+        margin-top: 0;
+    }
+}
+
+/* Media query for screen sizes above 991px */
+@media (min-width: 992px) {
+    .main-collection__item {
+        flex: 1 0 calc(33.33% - 20px); /* Set the width for three items per row with spacing */
+        margin-top: 0; /* Set the margin for three items per row */
+    }
+
+}
+
+/* Style the image container to cover the entire item */
+.main-collection__image-container {
+    display: flex;
+    align-items: center;
+}
+
+/* Ensure the image covers the entire container */
+.main-collection__image-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.main-collection__subheading a{
+    font-size: 18px;
+    color: var(--custom-gray);
+}
+
+.main-collection__price {
+    font-size: 16px;
+    font-weight: 700;
+    color: var(--red-color);
+}
+
+.main-collection__button-container button {
+    margin-top: 24px;
+    background-color: var(--custom-black);
+    text-align: center;
+    border-radius: 0px;
+    width: 130px;
+    height: 50px;
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
+}

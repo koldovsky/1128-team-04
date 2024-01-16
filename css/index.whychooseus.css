@@ -1,0 +1,178 @@
+.whychooseus {
+    padding-top: 90px;
+    padding-bottom: 60px;
+}
+
+.wcu-set {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+/*
+@media (min-width: 768px) {
+    .wcu-set {
+        flex-direction: row;
+        flex-wrap: nowrap;
+    }
+
+    .wcu-set__newarrivals {
+        flex: 50%;
+        min-width: 328.600px;
+    }
+
+    .wcu-set__trainers, .wcu-set__hotsale {
+        flex: 25%;
+        min-width: 149.300px;
+    }
+} */
+
+.wcu-set div {
+    min-height: 303.128px;
+    min-width: 272px;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin-bottom: 10px;
+    margin-top: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 0 30px;
+}
+
+.wcu-set div h2 a {
+    padding-left: 15px;
+    color: var(--custom-black);
+}
+
+.wcu-set div a{
+    padding-bottom: 30px;
+    text-decoration: none;
+    color: var(--custom-black);
+}
+
+.wcu-set div a:hover {
+    text-decoration: underline;
+}
+
+.wcu-set div h2 {
+    text-align: left;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 2em;
+    margin: 0;
+}
+
+.wcu-set__newarrivals {
+    background-image: url(../img/newarrivals.svg);
+}
+
+.wcu-set__trainers {
+    background-image: url(../img/trainers.png);
+}
+
+.wcu-set__hotsale {
+    background-image: url(../img/hotsale.png);
+}
+
+.wcu-set div hr {
+    width: 15%;
+    border: 2px solid var(--red-color);
+    margin: 15px 0;
+}
+
+.wcudot {
+    color: var(--red-color);
+}
+
+/* advantages */
+
+.advantages__parts div svg {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    color: var(--wcu-advantages-svg-color);
+}
+
+.advantages {
+    padding: 50px 0 90px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.advantages__title-container {
+    padding: 0 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.advantages__title-text {
+    width: 189.68px;
+    height: 49.6px;
+    padding: 0 10px;
+    white-space: nowrap;
+}
+
+.advantages hr {
+    margin: 15px 0;
+    border-color: var(--wcu-advantages-svg-color);
+    border-width: 3px;
+    width: 27.2px;
+    border-radius: 10px;
+}
+
+.advantages__title-text h2 {
+    font-size: 38px;
+    font-family: 'Bebas Neue', sans-serif;
+    width: 100%;
+}
+
+.advantages p {
+    font-size: 1.25em;
+    font-family: "PT Sans", sans-serif;
+    color: var(--custom-gray); 
+}
+
+.advantages__paragraph-text {
+    width: 211.46px;
+    height: 55.16px;
+    text-align: center;
+}
+
+.advantages-part {
+    width: 268.800px;
+    height: 263.513px;
+    border: 2px solid var(--wcu-advantages-hr-color);
+    margin: 50px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.advantages-part p {
+    text-align: center;
+    font-size: 1em;
+    color: var(--custom-gray);
+    padding: 15px 15px;
+    margin: 0 15px; 
+    
+}
+
+.advantages-part h3 {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 1.375em;
+    padding-top: 20px;
+
+}
+
+.advantages__svg-container {
+    width: 50px;
+    height: 50px;
+    margin-top: 20px;
+}

@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --red-color: #f40106;
+  --custom-gray: #717474;
+  --custom-black: #222323;
+  --wcu-advantages-svg-color: #9b9b9b;
+  --wcu-advantages-hr-color: #e0e0e0;
+  scroll-behavior: smooth;
+
+  font-family: "PT Sans", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+@font-face {
+  font-family: "PTSans1";
+  src: url("../fonts/PTSans-Regular.ttf") format("truetype"); /* Update the path accordingly */
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "bebasNeue";
+  src: url("../fonts/BebasNeue-Regular.woff2") format("woff2"); /* Update the path accordingly */
+  font-weight: normal;
+  font-style: normal;
+}
+
+img {
+  display: block;
+  width: 100%;
+}
