@@ -52,6 +52,9 @@
     padding-bottom: 30px;
     text-decoration: none;
     color: var(--custom-black);
+    font-size: 0.875em;
+    font-family: "PT Sans", sans-serif;
+    font-weight: 700;
 }
 
 .wcu-set div a:hover {
@@ -61,13 +64,26 @@
 .wcu-set div h2 {
     text-align: left;
     font-family: 'Bebas Neue', cursive;
-    font-size: 2em;
+    font-size: 2.275em;
     margin: 0;
+    font-weight: 400;
 }
 
 .wcu-set__newarrivals {
     background-image: url(../img/newarrivals.svg);
+    background-position: left -20px center!important;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
+
+/*
+.wcu-set__newarrivals {
+    background-image: url(../img/newarrivals.svg);
+    background-position-x: 14.53%, 0%;
+    background-position-y: 36.12%, 0%;
+    background-size: cover;
+    background-repeat: no-repeat;
+} */
 
 .wcu-set__trainers {
     background-image: url(../img/trainers.png);
