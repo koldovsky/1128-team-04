@@ -117,8 +117,8 @@
 
 .advantages hr {
     margin: 15px 0;
-    border-color: var(--wcu-advantages-hr-color);
-    border-width: 2px;
+    border-color: var(--wcu-advantages-svg-color);
+    border-width: 3px;
     width: 27.2px;
     border-radius: 10px;
 }
@@ -156,10 +156,20 @@
     text-align: center;
     font-size: 1em;
     color: var(--custom-gray);
-    padding: 10px 15px;
+    padding: 15px 15px;
+    margin: 0 15px; 
+    
+}
+
+.advantages-part h3 {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 1.375em;
+    padding-top: 20px;
+
 }
 
 .advantages__svg-container {
     width: 50px;
     height: 50px;
+    margin-top: 20px;
 }
