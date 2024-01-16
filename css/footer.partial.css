@@ -1,71 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+.footer {
+  background-color: #222323;
+  color: white;
+}
 
 .footer__container {
-  background-color: #222323;
   display: flex;
-  justify-content: space-between;
-  align-items: stretch;
-  padding: 20px;
+  justify-content: space-around;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  padding: 30px;
 }
 
-
-.footer__menu-item {
-  display: flex;
-  align-items: center;
-}
-
-.footer__logo {
-  margin-right: 10px;
-  width: 180px;
-  height: 50px;
-}
-
+.footer__summary,
 .footer__navigation,
-.footer__shop {
-  flex-basis: 25%;
+.footer__shop,
+.footer__follow_us {
+  flex: 1;
+  max-width: 300px;
+  margin-bottom: 20px;
 }
 
-.footer__navigation h3,
-.footer__shop h3,
-.footer__follow_us h3 {
-  font-weight: bold;
+.footer__text {
+  line-height: 1.5;
+}
+
+.footer__caption {
+  font-size: 20px;
+  margin-bottom: 10px;
 }
 
 .footer__divider {
   height: 2px;
-  width: 30%;
+  width: 50%;
   background-color: #f40106;
+  margin-bottom: 15px;
 }
 
 .footer__menu {
   list-style-type: none;
-  padding: 0;
 }
 
-.footer__menu-item a, .footer__text, .footer__caption {
+.footer__menu-item {
+  margin-bottom: 8px;
+}
+
+.footer__menu-item a,
+.footer__text,
+.footer__caption {
   text-decoration: none;
-  color: antiquewhite;
+  color: white;
 }
 
 .footer__menu-item a:hover {
-color: dimgray;
-background-color: aliceblue;
+  color: #f40106;
+  text-decoration: underline;
 }
 
-.footer__follow_us img {
+.media_logo {
+  width: 30px;
+  height: 30px;
   margin-right: 10px;
 }
 
 .footer__bottom {
   background-color: #222323;
-  margin-top: 20px;
-  display: flex;
-  justify-content: space-between;
+  color: white;
+  text-align: center;
+  padding: 15px;
 }
 
 .footer__creators,
 .footer__copyright {
-  font-family: "Bebas Neue", cursive;
   font-size: 14px;
-  color: antiquewhite;
-  background-color: #222323;
+  margin: 5px 0;
 }
