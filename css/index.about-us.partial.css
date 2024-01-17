@@ -1,0 +1,31 @@
+.about-us {
+    font-family: "bebasNeue";
+    background-color: var(--custom-black);
+}
+
+.about-us__icon {
+    width: 35px;
+}
+
+.about-us__foto {
+    width: 637px;
+}
+
+.about-us__red-dot {
+    color: var(--red-color);
+}
+
+.about-us__entry {
+    color: var(--white-color);
+}
+
+.about-us__text {
+    color: var(--white-color);
+}
+
+.about-us__strip {
+    height: 2px;
+    width: 8%;
+    background-color: var(--red-color);
+    border-color: var(--red-color);
+}
