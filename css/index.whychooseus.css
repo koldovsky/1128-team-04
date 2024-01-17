@@ -10,6 +10,48 @@
     padding-left: 15px;
     padding-right: 15px;
 }
+
+@media (min-width: 768px) {
+    .wcu-set {
+        display: flex;
+        flex-direction: row;
+        flex-flow: row nowrap;
+    }
+    
+    .wcu-set__newarrivals {
+        height: 386.400px;
+        min-width: 337px;
+        flex-grow: 2;
+        padding: 0 15px;
+        margin: 15px 0 10px!important;
+    }
+
+    .wcu-set__hotsale, .wcu-set__trainers {
+        height: 386.400px;
+        min-width: 153.500px!important;
+        flex-grow: 0.5;
+        padding: 0 15px;
+    }
+
+    .advantages__parts {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .advantages__parts div{
+        width: 45%;
+        margin: 15px;
+        padding: 0;
+    }
+
+    .advantages-part p {
+        word-wrap: break-word;
+    }
+}
+
 /*
 @media (min-width: 768px) {
     .wcu-set {
@@ -26,7 +68,8 @@
         flex: 25%;
         min-width: 149.300px;
     }
-} */
+} 
+*/
 
 .wcu-set div {
     min-height: 303.128px;
@@ -74,6 +117,7 @@
     background-position: left -20px center!important;
     background-size: cover;
     background-repeat: no-repeat;
+    padding-right: 0;
 }
 
 /*
@@ -97,6 +141,7 @@
     width: 15%;
     border: 2px solid var(--red-color);
     margin: 15px 0;
+    border-radius: 10px;
 }
 
 .wcudot {
@@ -128,7 +173,7 @@
 }
 
 .advantages__title-text {
-    width: 189.68px;
+    min-width: 189.68px;
     height: 49.6px;
     padding: 0 10px;
     white-space: nowrap;
@@ -155,13 +200,13 @@
 }
 
 .advantages__paragraph-text {
-    width: 211.46px;
+    min-width: 211.46px;
     height: 55.16px;
     text-align: center;
 }
 
 .advantages-part {
-    width: 268.800px;
+    min-width: 268.800px;
     height: 263.513px;
     border: 2px solid var(--wcu-advantages-hr-color);
     margin: 50px 0;
