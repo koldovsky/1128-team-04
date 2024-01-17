@@ -1,5 +1,6 @@
 .header {
     padding: 5 px;  
+    
 }
 
 .header__address{
@@ -11,12 +12,10 @@
     font-weight: bold;
 }
 
-.header__contact-link{
-    color: white;
-}
+
 
 .header__navbar{
-    background-color: #000000;
+    background-color: #222323;
     display: flex;
     justify-content: space-between;
     width: 100%; 
@@ -25,25 +24,28 @@
 }
 
 .header__logo-img{
-    margin: 10px; /* Опциональные отступы между элементами */
-    padding: 15px;
+    height: auto;
+    width: 168px;
+    margin-top: 5px;
+    margin-left: 5px;
+    
 }
 
-.header__nav{
-    display: flex;
-    text-align: center;
-}
 
-.header__logo-img{
-    font-size: 20px;
-    display: flex;
-    align-items: center;
-}
 
 .header__contacts{
     background-color: #000000;
     font-family: 'PT Sans', sans-serif;
 }
 
+@media (max-width: 768px) {
+    /* Стили, которые будут применяться только на мобильных устройствах */
+    header .header__address {
+        display: none; /* Скрыть элемент с классом "mobile-part" */
+    }
+    header .header__social-icons{
+        display: none;
+    }
+}
 
 

@@ -1,0 +1,32 @@
+.newcollection__header {
+    position: relative;
+}
+
+.newcollection__image {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.newcollection__overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    width: 100%;
+}
+
+.newcollection__title-sub {
+    font-size: 24px;
+}
+
+.newcollection__title-main {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.newcollection__link {
+    margin-top: 20px;
+}
