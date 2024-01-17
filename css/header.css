@@ -12,7 +12,9 @@
     font-weight: bold;
 }
 
-
+.header__contact-link{
+    color:white;
+}
 
 .header__navbar{
     background-color: #222323;
