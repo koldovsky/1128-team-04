@@ -1,6 +1,12 @@
 .about-us__container {
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
   align-items: center;
+}
+
+.about-us__text-icon {
+  font-size: 20px;
+  padding: 0 160px;
 }
 
 .about-us {
@@ -14,8 +20,8 @@
 }
 
 .about-us__foto {
-  width: 637px;
-  height: auto;
+  height: 100%;
+  object-fit: cover;
     margin-right: 20px;
 }
 
@@ -24,7 +30,9 @@
 }
 
 .about-us__entry {
+  font-size: 55px;
   color: var(--white-color);
+  text-align: left;
 }
 
 .about-us__text {
@@ -32,8 +40,8 @@
 }
 
 .about-us__strip {
-  height: 2px;
-  width: 8%;
+  height: 3px;
+  width: 15%;
   background-color: var(--red-color);
   border-color: var(--red-color);
 }
