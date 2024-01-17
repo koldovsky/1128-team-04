@@ -1,12 +1,12 @@
 .about-us__container {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+
   align-items: center;
 }
 
 .about-us__text-icon {
   font-size: 20px;
-  padding: 0 160px;
+  padding: 0 20%;
 }
 
 .about-us {
@@ -15,14 +15,14 @@
 }
 
 .about-us__icon {
-  width: 80px;
+  width: 100px;
   display: flex;
+  gap: 5px;
 }
 
 .about-us__foto {
   height: 100%;
   object-fit: cover;
-    margin-right: 20px;
 }
 
 .about-us__red-dot {
@@ -44,4 +44,10 @@
   width: 15%;
   background-color: var(--red-color);
   border-color: var(--red-color);
+}
+
+@media (min-width: 1400px) {
+  .about-us__container {
+    grid-template-columns: 1fr 1fr;
+  }
 }
