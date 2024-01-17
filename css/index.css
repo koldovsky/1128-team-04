@@ -5,8 +5,9 @@
 @import "index.maincollections.partial.css";
 @import "index.blog.css";
 @import "index.brands.css";
-@import "index.main.mid-season-sale.css";
 @import "index.shopcart.partial.css";
 @import "header.css";
 @import "index.timer-for-dicount.partial.css";
 @import "newarrivals.css"
+@import "index.main.mid-season-sale.css";
+@import "index.about-us.partial.css"
