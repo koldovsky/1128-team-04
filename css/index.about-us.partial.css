@@ -1,14 +1,22 @@
+.about-us__container {
+  display: flex;
+  align-items: center;
+}
+
 .about-us {
   font-family: "bebasNeue";
   background-color: var(--custom-black);
 }
 
 .about-us__icon {
-  width: 35px;
+  width: 80px;
+  display: flex;
 }
 
 .about-us__foto {
   width: 637px;
+  height: auto;
+    margin-right: 20px;
 }
 
 .about-us__red-dot {
