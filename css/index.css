@@ -3,6 +3,8 @@
 @import "footer.partial.css";
 @import "index.contacts.partial.css";
 @import "index.maincollections.partial.css";
+@import "index.blog.css";
+@import "index.brands.css";
 @import "index.main.mid-season-sale.css";
 @import "index.shopcart.partial.css";
 @import "header.css";

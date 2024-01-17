@@ -1,0 +1,26 @@
+.blog {
+    max-width: 1200px;
+    margin: auto;
+} 
+.blog__header-title {
+    text-align: center;
+    font-family: "bebasNeue", cursive;
+    font-size: 52px;
+    color: var(--custom-black);
+}
+.blog__divider {
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+}
+.blog__divider-item {
+    height: 2px;
+    width: 8%;
+    background-color: var(--wcu-advantages-hr-color);
+}
+.blog__subtitle {
+    text-align: center;
+    color: var(--custom-gray);
+    font-size: 20px;
+    font-family: "PT Sans", sans-serif;
+}
