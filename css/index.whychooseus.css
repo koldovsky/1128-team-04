@@ -13,6 +13,48 @@
 
 @media (min-width: 768px) {
     .wcu-set {
+        display: flex;
+        flex-direction: row;
+        flex-flow: row nowrap;
+    }
+    
+    .wcu-set__newarrivals {
+        height: 386.400px;
+        min-width: 337px;
+        flex-grow: 2;
+        padding: 0 15px;
+        margin: 15px 0 10px!important;
+    }
+
+    .wcu-set__hotsale, .wcu-set__trainers {
+        height: 386.400px;
+        min-width: 153.500px!important;
+        flex-grow: 0.5;
+        padding: 0 15px;
+    }
+
+    .advantages__parts {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .advantages__parts div{
+        width: 45%;
+        margin: 15px;
+        padding: 0;
+    }
+
+    .advantages-part p {
+        word-wrap: break-word;
+    }
+}
+
+/*
+@media (min-width: 768px) {
+    .wcu-set {
         flex-direction: row;
         flex-wrap: nowrap;
     }
@@ -26,20 +68,22 @@
         flex: 25%;
         min-width: 149.300px;
     }
-}
+} 
+*/
 
 .wcu-set div {
     min-height: 303.128px;
-    min-width: 424.800px;
+    min-width: 272px;
     background-size: cover;
     background-position: center;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
     margin-bottom: 10px;
-    margin-left: 15px;
-    margin-right: 15px;
     margin-top: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 0 30px;
 }
 
 .wcu-set div h2 a {
@@ -48,8 +92,12 @@
 }
 
 .wcu-set div a{
-    padding-bottom: 15px;
-    padding-top: 7px;
+    padding-bottom: 30px;
+    text-decoration: none;
+    color: var(--custom-black);
+    font-size: 0.875em;
+    font-family: "PT Sans", sans-serif;
+    font-weight: 700;
 }
 
 .wcu-set div a:hover {
@@ -57,13 +105,29 @@
 }
 
 .wcu-set div h2 {
-    padding-bottom: 7px;
     text-align: left;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 2.275em;
+    margin: 0;
+    font-weight: 400;
 }
 
 .wcu-set__newarrivals {
     background-image: url(../img/newarrivals.svg);
+    background-position: left -20px center!important;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-right: 0;
 }
+
+/*
+.wcu-set__newarrivals {
+    background-image: url(../img/newarrivals.svg);
+    background-position-x: 14.53%, 0%;
+    background-position-y: 36.12%, 0%;
+    background-size: cover;
+    background-repeat: no-repeat;
+} */
 
 .wcu-set__trainers {
     background-image: url(../img/trainers.png);
@@ -74,10 +138,10 @@
 }
 
 .wcu-set div hr {
-    border-color: var(--red-color);
     width: 15%;
-    size: 2px;
-    margin-left: 15px;
+    border: 2px solid var(--red-color);
+    margin: 15px 0;
+    border-radius: 10px;
 }
 
 .wcudot {
@@ -109,7 +173,7 @@
 }
 
 .advantages__title-text {
-    width: 189.68px;
+    min-width: 189.68px;
     height: 49.6px;
     padding: 0 10px;
     white-space: nowrap;
@@ -117,8 +181,8 @@
 
 .advantages hr {
     margin: 15px 0;
-    border-color: var(--wcu-advantages-hr-color);
-    border-width: 2px;
+    border-color: var(--wcu-advantages-svg-color);
+    border-width: 3px;
     width: 27.2px;
     border-radius: 10px;
 }
@@ -136,13 +200,13 @@
 }
 
 .advantages__paragraph-text {
-    width: 211.46px;
+    min-width: 211.46px;
     height: 55.16px;
     text-align: center;
 }
 
 .advantages-part {
-    width: 268.800px;
+    min-width: 268.800px;
     height: 263.513px;
     border: 2px solid var(--wcu-advantages-hr-color);
     margin: 50px 0;
@@ -156,10 +220,20 @@
     text-align: center;
     font-size: 1em;
     color: var(--custom-gray);
-    padding: 10px 15px;
+    padding: 15px 15px;
+    margin: 0 15px; 
+    
+}
+
+.advantages-part h3 {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 1.375em;
+    padding-top: 20px;
+
 }
 
 .advantages__svg-container {
     width: 50px;
     height: 50px;
+    margin-top: 20px;
 }
