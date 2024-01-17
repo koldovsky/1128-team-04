@@ -3,13 +3,14 @@
     padding-top: 90px;
     padding-bottom: 90px;
     display: block;
-    min-width: 320px;
 }
 
 .main-collection__body{
     padding-left: 24px;
     padding-right: 24px;
     margin: 0 auto;
+    min-width: 320px;
+    max-width: 1200px;
 }
 
 /* Style the header */
@@ -57,6 +58,7 @@
 
 /* Style the text */
 .main-collection__text {
+    font-family: "PTSans1";
     font-size: 20px;
     color: var(--custom-gray);
 }
@@ -68,26 +70,36 @@
 /* Style the navigation */
 .main-collection__nav {
     margin-left: -15px;
+    margin-right: -15px;
     margin-bottom: 30px;
     padding-left: 15px;
     padding-right: 15px;
-    display: inline-flex;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .main-collection__nav-item {
     align-items: center;
     cursor: pointer;
     padding: 15px 20px;
-    border-bottom-color: var(--red-color);
     font-family: "PTSans1";
     color: var(--custom-gray);
+}
+
+.active-item{
+    border-bottom: 3px solid var(--red-color);
+}
+
+.main-collection__divider-line{
+    width: 99%;
+    margin: 0;
+    opacity: .075;
+    margin-top: -1px;
 }
 
 /* Default styles for all screen sizes */
 .main-collection__column {
     display: flex;
-    flex-wrap: wrap;
-    align-items: center;
 }
 
 .main-collection__column-inner{
@@ -99,51 +111,11 @@
 
 /* Style the items within each column */
 .main-collection__item {
-    flex: 1 0 calc(33.33% - 20px); /* Set the initial width for three items per row with some spacing */
     padding: 0 15px;
     text-align: left;
     display: flex;
     flex-direction: column;
     flex-basis: 100%;
-    gap: 10px;
-}
-
-
-/* Media query for screen sizes below 767px */
-@media (max-width: 767px) {
-    .main-collection__item {
-        flex: 1 0 100%; /* Make each item take up the full width */
-        margin-top: 50px;
-    }
-
-    .main-collection__item:first-child{
-        margin-top: 0;
-    }
-}
-
-/* Media query for screen sizes between 767px and 991px */
-@media (min-width: 768px) and (max-width: 991px) {
-    .main-collection__item {
-        flex: 1 0 calc(50% - 20px); /* Set the width for two items per row with spacing */
-        margin-top: 0;
-    }
-
-    .main-collection__item:nth-child(2n+1) {
-        margin-top: 30px; /* Set margin-top for the second item in a row */
-    }
-
-    .main-collection__item:first-child{
-        margin-top: 0;
-    }
-}
-
-/* Media query for screen sizes above 991px */
-@media (min-width: 992px) {
-    .main-collection__item {
-        flex: 1 0 calc(33.33% - 20px); /* Set the width for three items per row with spacing */
-        margin-top: 0; /* Set the margin for three items per row */
-    }
-
 }
 
 /* Style the image container to cover the entire item */
@@ -159,19 +131,29 @@
     object-fit: cover;
 }
 
+.main-collection__subheading{
+    margin-top: 24px;
+}
+
 .main-collection__subheading a{
     font-size: 18px;
     color: var(--custom-gray);
+    text-decoration: none;
 }
 
 .main-collection__price {
-    font-size: 16px;
+    font-family: "PT Sans";
+    font-size: 18px;
     font-weight: 700;
     color: var(--red-color);
+    align-content: center;
+}
+
+.main-collection__button-container{
+    margin-top: 24px;
 }
 
 .main-collection__button-container button {
-    margin-top: 24px;
     background-color: var(--custom-black);
     text-align: center;
     border-radius: 0px;
@@ -180,4 +162,68 @@
     color: white;
     font-size: 14px;
     font-weight: 600;
+}
+
+/* Media query for screen sizes below 767px */
+@media (max-width: 767px) {
+    .main-collection__item {
+        flex-basis: 100%; /* Make each item take up the full width */
+        margin-top: 50px;
+    }
+
+    .main-collection__item:first-child{
+        margin-top: 0;
+    }
+}
+
+/* Media query for screen sizes between 767px and 991px */
+@media (min-width: 768px) and (max-width: 991px){
+    .main-collection{
+        padding-bottom: 105px;
+    }
+
+    .main-collection__text-content{
+        font-size: 45px;
+    }
+
+    .main-collection__nav{
+        justify-content: center;
+    }
+
+    .main-collection__item {
+        flex-basis: 50%; /* Set the width for two items per row with spacing */
+        margin-top: 0;
+    }
+
+    .main-collection__item:nth-child(2n+1) {
+        margin-top: 30px; /* Set margin-top for the second item in a row */
+    }
+
+    .main-collection__item:first-child{
+        margin-top: 0;
+    }
+}
+
+/* Media query for screen sizes above 991px */
+@media (min-width: 992px) {
+    .main-collection{
+        padding-bottom: 120px;
+    }
+
+    .main-collection__text-content{
+        font-size: 52px;
+    }
+
+    .main-collection__nav{
+        justify-content: center;
+    }
+
+    .main-collection__content{
+        margin-top: 50px;
+    }
+
+    .main-collection__item {
+        flex-basis: 33%;
+        margin-top: 0; /* Set the margin for three items per row */
+    }
 }
