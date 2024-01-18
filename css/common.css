@@ -7,6 +7,7 @@
 }
 
 :root {
+  --white-color: #ffffff;
   --red-color: #f40106;
   --custom-gray: #717474;
   --custom-black: #222323;
@@ -37,4 +38,9 @@ a {
 img {
   display: block;
   width: 100%;
+}
+
+.container{
+  max-width: 1200px;
+  margin: auto;
 }
