@@ -1,14 +1,28 @@
+.about-us__container {
+  display: grid;
+
+  align-items: center;
+}
+
+.about-us__text-icon {
+  font-size: 20px;
+  padding: 0 20%;
+}
+
 .about-us {
   font-family: "bebasNeue";
   background-color: var(--custom-black);
 }
 
 .about-us__icon {
-  width: 35px;
+  width: 100px;
+  display: flex;
+  gap: 5px;
 }
 
 .about-us__foto {
-  width: 637px;
+  height: 100%;
+  object-fit: cover;
 }
 
 .about-us__red-dot {
@@ -16,7 +30,9 @@
 }
 
 .about-us__entry {
+  font-size: 55px;
   color: var(--white-color);
+  text-align: left;
 }
 
 .about-us__text {
@@ -24,8 +40,14 @@
 }
 
 .about-us__strip {
-  height: 2px;
-  width: 8%;
+  height: 3px;
+  width: 15%;
   background-color: var(--red-color);
   border-color: var(--red-color);
+}
+
+@media (min-width: 1400px) {
+  .about-us__container {
+    grid-template-columns: 1fr 1fr;
+  }
 }
