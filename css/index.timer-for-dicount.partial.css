@@ -1,6 +1,5 @@
 .timer {
     text-align: center;
-    font-family: "bebasNeue";
     color: white;
     background-color: var(--custom-black);
     display: flex;
@@ -10,6 +9,7 @@
 
 .main-message-for-customer{
     font-size: 124px;
+    font-family: "bebasNeue";
 }
 
 .red-dot{
@@ -27,22 +27,33 @@
     text-decoration: line-through;
 }
 
-.p {
+.just-text {
+    font-family: "PTSans1";
     font-size: 16px;
+    margin-left: 170px; /* Отступ от левого края */
+    text-align: left; /* Выравнивание по левому краю */
+    margin-top: 150px;
+    margin-right: 100px;
 }
+
 
 .countdown {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: left;
     align-items: center;
-  }
+    margin-left: 170px; /* Отступ от левого края */
+    text-align: left; 
+    margin-top: 50px;
+    margin-right: 100px;
+}
   
 .countdown > div {
     margin: 10px; 
     padding: 15px; 
-    border: 1px solid #ffffff; 
+    border: 1px solid #ffffff88; 
     border-radius: 10px; 
+    width: 100px; /* Учтите границу в вычислении размеров */
 }
 
 .more-details {
@@ -53,4 +64,36 @@
 .more-details::after {
     content: "\2192"; 
     margin-left: 5px; 
+}
+
+.num-time {
+  font-size: 36px;
+  font-family: "bebasNeue";
+}
+
+.time {
+    font-size: 18px;
+    font-family: "PTSans1";
+    color: #ffffff88;
+}
+
+.countdown-item {
+    text-align: center;
+}
+
+@media (max-width: 800px) {
+    .timer {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .photo-with-bra img {
+        width: 100%;
+    }
+
+    .text-for-customer {
+        order: -1;
+        margin-left: 50px;
+    }
+
 }
