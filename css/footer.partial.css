@@ -28,15 +28,15 @@
 }
 
 .footer__caption {
-  font-size: 20px;
-  margin-bottom: 10px;
+  font-size: 24px;
+  margin-bottom: 15px;
 }
 
 .footer__divider {
   height: 2px;
   width: 50%;
   background-color: #f40106;
-  margin-bottom: 15px;
+  margin: 10px 0;
 }
 
 .footer__menu {
@@ -62,6 +62,7 @@
 .footer__caption {
   text-decoration: none;
   color: white;
+  font-size: 16px;
 }
 
 .footer__menu-item a:hover {
