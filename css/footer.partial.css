@@ -40,11 +40,17 @@
 
 .footer__menu {
   list-style-type: none;
+  display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
 }
-
-.footer__menu-item {
+ .footer__menu li {
+    margin-right: 15px; 
+  } 
+ /*<!--.footer__menu-item {
   margin-bottom: 8px;
-}
+}-->*/
 
 .footer__menu-item a,
 .footer__text,
@@ -60,8 +66,8 @@
 
 .media_logo {
   width: 30px;
-  height: 30px;
-  margin-right: 10px;
+  height: auto;
+  
 }
 
 .footer__bottom {
