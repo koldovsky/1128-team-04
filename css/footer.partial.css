@@ -10,7 +10,7 @@
   justify-content: space-around;
   align-items: flex-start;
   flex-wrap: wrap;
-  padding: 30px;
+  padding: 15px;
 }
 
 .footer__summary,
@@ -18,7 +18,7 @@
 .footer__shop,
 .footer__follow_us {
   flex: 1;
-  max-width: 300px;
+  max-width: 100%;
   margin-bottom: 20px;
 }
 
@@ -81,4 +81,17 @@
 .footer__copyright {
   font-size: 14px;
   margin: 5px 0;
+}
+
+@media (max-width: 768px) {
+  .footer__container {
+    padding: 10px; 
+  }
+  footer__summary,
+  .footer__navigation,
+  .footer__shop,
+  .footer__follow_us {
+    flex: 100%; 
+    max-width: 100%;
+  }
 }
