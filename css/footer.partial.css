@@ -40,17 +40,21 @@
 
 .footer__menu {
   list-style-type: none;
+
+}
+.footer__links {
   display: flex;
+  flex-direction: row;
+    justify-content: center;
     list-style: none;
     padding: 0;
-    margin: 0;
 }
  .footer__menu li {
     margin-right: 15px; 
   } 
- /*<!--.footer__menu-item {
+.footer__menu-item {
   margin-bottom: 8px;
-}-->*/
+}
 
 .footer__menu-item a,
 .footer__text,
