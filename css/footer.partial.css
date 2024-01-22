@@ -7,7 +7,13 @@
 
 }
 
-
+.footer__container {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  padding: 30px;
+}
 
 .footer__info,
 .footer__navigation,
@@ -15,7 +21,7 @@
 .footer__follow_us {
   flex: 1;
   max-width: 100%;
-
+  margin-bottom: 20%;
 }
 
 .footer__text {
@@ -70,7 +76,7 @@
 .footer__links {
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: space-around;
   list-style: none;
   padding: 0;
 }
@@ -115,10 +121,7 @@
   margin: 5px 0;
 }
 
-@media (min-width: 768px) {
-  .footer__container {
-    padding: 10px;
-  }
+
 
   footer__summary,
   .footer__navigation,
@@ -127,4 +130,3 @@
     flex: 100%;
     max-width: 100%;
   }
-}
