@@ -52,6 +52,7 @@
 .footer__divider {
   height: 2px;
   width: 60px;
+  max-width: 1200px;
   background-color: #f40106;
   margin-bottom: 15px;
   
@@ -117,6 +118,17 @@
 }
 
 
+@media screen and (max-width: 760px) {
+.footer__info,
+.footer__navigation,
+.footer__shop,
+.footer__follow_us {
+  display: flex;
+  flex-direction: column; 
+  align-items: center
+}
+}
+  
 
 
 
