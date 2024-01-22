@@ -1,0 +1,72 @@
+.arrivals {
+  padding-top: 90px;
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-bottom: 60px;
+}
+
+.arrivals_header {
+  text-align: center;
+  justify-content: center;
+  display: block;
+  height: auto;
+  width: auto;
+}
+.arrivals h2 {
+  display: block;
+  height: auto;
+  width: auto;
+  font-size: 2.375rem;
+  color: var(--custom-black);
+  font-family: "bebasNeue";
+  font-weight: 400;
+}
+
+.arrivals__title-dot {
+  color: var(--red-color);
+}
+
+.arrivals__text {
+  display: block;
+  text-align: left;
+  padding-left: 70px;
+  padding-right: 70px;
+  font-family: "PTSans1", sans-serif;
+  font-size: 1.25rem;
+  font-weight: 400;
+  color: var(--custom-gray);
+  }
+
+.arrivals__button {
+  display: block;
+  font-family: "PTSans1";
+  background-color: var(--white-color);
+  color: var(--custom-black);
+  text-align: center;
+  border-width: 1.6px;
+}
+
+.arrivals__item-title {
+  font-family: "PTSans1", sans-serif;
+  font-size: 1.125rem;
+  color: var(--custom-gray);
+  text-decoration: none;
+}
+
+.arrivals__item-price {
+  font-family: "PTSans1", sans-serif;
+  color: var(--red-color);
+  font-weight: bold;
+  font-size: 1.125rem;
+}
+
+.arrivals__item-button {
+  font-family: "PTSans1";
+  background-color: var(--custom-black);
+  text-align: center;
+  width: 130px;
+  height: 50px;
+  color: white;
+  font-size: 0.9375rem;
+  font-weight: 600;
+}

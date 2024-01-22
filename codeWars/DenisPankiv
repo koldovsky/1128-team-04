@@ -1,0 +1,29 @@
+//Messi goals function
+function goals (laLigaGoals, copaDelReyGoals, championsLeagueGoals) {
+  return laLigaGoals + copaDelReyGoals + championsLeagueGoals;
+}
+
+//Return Negative
+function makeNegative(num) {
+    return (num < 0 ? num : -num);
+}
+
+//Terminal game move function
+function move (position, roll) {
+    return position + roll * 2
+}
+
+//Grasshopper - Personalized Messag
+function greet (name, owner) {
+    return (name == owner ? 'Hello boss' : 'Hello guest');
+}
+
+//Keep Hydrated!
+function litres(time) {
+    return Math.trunc(time * 0.5);
+}
+
+//Opposites Attract
+function lovefunc(flower1, flower2){
+    return flower1 % 2 !== flower2 % 2;
+}

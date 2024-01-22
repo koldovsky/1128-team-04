@@ -1,0 +1,50 @@
+.blog {
+  max-width: 1200px;
+  margin: auto;
+}
+.blog__header-title {
+  text-align: center;
+  font-family: "bebasNeue", cursive;
+  font-size: 52px;
+}
+.blog__header-title-main {
+  color: var(--custom-black);
+}
+.blog__header-title-dot {
+  color: var(--red-color);
+}
+.blog__divider {
+  display: flex;
+  justify-content: center;
+  padding: 15px;
+}
+.blog__divider-item {
+  height: 2px;
+  width: 8%;
+  background-color: var(--wcu-advantages-hr-color);
+}
+.blog__subtitle {
+  text-align: center;
+  color: var(--custom-gray);
+  font-size: 20px;
+  font-family: "PT Sans", sans-serif;
+}
+.blog__cards {
+  display: flex;
+  flex-direction: column;
+}
+.blog__cards-card {
+  padding: 10px;
+  box-sizing: border-box;
+}
+/* Media query for larger screens */
+@media screen and (min-width: 768px) {
+  .blog__cards {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .blog__cards-card {
+    width: calc(33.33% - 20px);
+  }
+}
