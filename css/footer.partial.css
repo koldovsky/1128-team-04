@@ -19,12 +19,12 @@
   
 }
 
-.footer__info,
+/*.footer__info,
 .footer__navigation,
 .footer__shop,
 .footer__follow_us {
   grid-column: span 1; 
-}
+} */
 
 .footer__info {
   align-items: center;
