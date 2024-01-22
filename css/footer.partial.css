@@ -111,20 +111,13 @@
   padding: 15px;
   display: flex;
   flex-direction: row;
-  
+  justify-content: flex-start; 
 }
 
 .footer__creators,
 .footer__copyright {
   font-size: 14px;
   margin: 5px 0;
-}
-
-.footer__creators {
-  justify-content: flex-start;
-}
-.footer__copyright {
-  justify-content: flex-end;
 }
 
 @media screen and (max-width: 360px) {
