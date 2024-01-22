@@ -111,7 +111,7 @@
   padding: 15px;
   display: flex;
   flex-direction: row;
-  align-items: space-between;
+  
 }
 
 .footer__creators,
@@ -120,9 +120,17 @@
   margin: 5px 0;
 }
 
+.footer__creators {
+  justify-content: flex-start;
+}
+.footer__copyright {
+  justify-content: flex-end;
+}
 
-@media screen and (max-width: 760px) {
+@media screen and (max-width: 360px) {
 
+  .footer,
+  .footer__container,
   .footer__info,
   .footer__navigation,
   .footer__shop,
