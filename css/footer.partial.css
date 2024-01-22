@@ -37,7 +37,6 @@
 
 .footer__summary {
   color: #9b9b9b;
-  
   margin-top: 15px;
   font-size: 14px;
 }
@@ -47,7 +46,7 @@
 .footer__caption {
   font-size: 18px;
   margin-bottom: 10px;
-  margin-left: 20px;
+  
 }
 
 .footer__divider {
@@ -55,7 +54,7 @@
   width: 60px;
   background-color: #f40106;
   margin-bottom: 15px;
-  margin-left: 35px;
+  
 }
 
 .footer__menu,
@@ -118,7 +117,7 @@
 }
 
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 368px) {
   .footer__info,
   .footer__navigation,
   .footer__shop,
