@@ -4,6 +4,8 @@
   background-color: #222323;
   color: white;
   padding: 30px 20px;
+  display: flex;
+  flex-direction: row;
 
 }
 
@@ -18,7 +20,7 @@
 
 
 .footer__info {
-  align-items: flex-start;
+  align-items: center;
 }
 
 .footer__logo img {
@@ -28,17 +30,12 @@
 
 .footer__summary {
   color: #9b9b9b;
-  flex: 1;
+  
   margin-top: 15px;
   font-size: 14px;
 }
 
-.footer__navigation,
-.footer__shop,
-.footer__follow_us {
-  flex: 1;
-  margin-top: 20px;
-}
+
 
 .footer__caption {
   font-size: 18px;
@@ -59,7 +56,7 @@
 .footer__links {
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  
 }
 .footer__dividers {
   width: 90%;
@@ -103,7 +100,7 @@
   padding: 15px;
  display: flex;
   flex-direction: row;
-  align-items: baseline;
+  justify-content: space-between;
 }
 
 .footer__creators,
