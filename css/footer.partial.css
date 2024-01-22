@@ -15,18 +15,10 @@
   
 }
 
-.footer__info,
-.footer__navigation,
-.footer__shop,
-.footer__follow-us {
-  flex: 1;
-  padding: 10px;
-  margin: 5px
-}
+
 
 .footer__info {
-  
-  align-items: center;
+  align-items: flex-start;
 }
 
 .footer__logo img {
@@ -55,7 +47,7 @@
 
 .footer__divider {
   height: 2px;
-  width: 30%;
+  width: 60px;
   background-color: #f40106;
   margin-bottom: 15px;
 }
@@ -64,6 +56,17 @@
 .footer__links {
   list-style-type: none;
 }
+.footer__links {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.footer__dividers {
+  width: 90%;
+  color:#9b9b9b;
+  
+}
+
 
 .footer__menu-item,
 .footer__links li {
@@ -97,8 +100,10 @@
 .footer__bottom {
   background-color: #222323;
   color: white;
-  text-align: center;
   padding: 15px;
+ display: flex;
+  flex-direction: row;
+  align-items: baseline;
 }
 
 .footer__creators,
@@ -107,7 +112,7 @@
   margin: 5px 0;
 }
 
-/* Responsive styles */
+
 @media screen and (max-width: 768px) {
   .footer__info,
   .footer__navigation,
