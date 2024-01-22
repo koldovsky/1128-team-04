@@ -14,7 +14,7 @@
   padding: 15px;
 }
 
-.footer__summary,
+.footer__info,
 .footer__navigation,
 .footer__shop,
 .footer__follow_us {
@@ -31,10 +31,15 @@
   font-size: 24px;
   margin-bottom: 15px;
 }
-
+.footer__logo {
+  width: 168px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
 .footer__divider {
   height: 2px;
-  width: 50%;
+  width: 30%;
   background-color: #f40106;
   margin: 10px 0;
 }
