@@ -8,15 +8,24 @@
 }
 
 .footer__container {
+  display: flex;
+  flex-direction: row;
   max-width: 1200px;
   margin: 0 auto;
   
 }
 
+.footer__info,
+.footer__navigation,
+.footer__shop,
+.footer__follow-us {
+  flex: 1;
+  padding: 10px;
+  margin: 5px
+}
+
 .footer__info {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
+  
   align-items: center;
 }
 
