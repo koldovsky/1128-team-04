@@ -117,7 +117,7 @@
 }
 
 
-@media screen and (min-width: 368px) {
+@media screen and (max-width: 1200px) {
   .footer__info,
   .footer__navigation,
   .footer__shop,
