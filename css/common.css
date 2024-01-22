@@ -7,11 +7,20 @@
 }
 
 :root {
+  --white-color: #ffffff;
   --red-color: #f40106;
   --custom-gray: #717474;
   --custom-black: #222323;
   --wcu-advantages-svg-color: #9b9b9b;
   --wcu-advantages-hr-color: #e0e0e0;
+  --ui-dark-brand-color: #D60307;
+  --font-primary: "PT Sans", sans-serif;
+  --ui-light-shade-color: #fff;
+  --ui-dark-shade-color: #222323;
+  --font-secondary: "Bebas Neue", sans-serif;
+  --ui-brand-color: #f40106;
+  --ui-dark-accent-color: #9b9b9b;
+  --ui-dark-grey-color: #717474;
   scroll-behavior: smooth;
 
   font-family: "PT Sans", sans-serif;
@@ -37,4 +46,9 @@ a {
 img {
   display: block;
   width: 100%;
+}
+
+.container{
+  max-width: 1200px;
+  margin: auto;
 }
