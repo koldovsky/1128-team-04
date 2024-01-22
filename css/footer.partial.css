@@ -9,8 +9,7 @@
 
 .footer__container {
   display: grid;
-  grid-template-columns: repeat(4, minmax(0, 1fr));
-  grid-auto-flow: column;
+  grid-template-columns: repeat(4, 1fr);
   grid-gap: 10px;
   align-items: flex-start;
   justify-content: center;
@@ -53,7 +52,6 @@
 .footer__divider {
   height: 2px;
   width: 60px;
-  max-width: 1200px;
   background-color: #f40106;
   margin-bottom: 15px;
   
@@ -126,7 +124,7 @@
 .footer__follow_us {
   display: flex;
   flex-direction: column; 
-  align-items: center
+  align-items: stretch;
 }
 }
   
