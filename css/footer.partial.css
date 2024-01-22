@@ -110,7 +110,7 @@
   padding: 15px;
   display: flex;
   flex-direction: row;
-  justify-content: flex-start; 
+  justify-content: center; 
 }
 
 .footer__creators,
