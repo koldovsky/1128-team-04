@@ -117,15 +117,8 @@
 }
 
 
-@media screen and (max-width: 1200px) {
-  .footer__info,
-  .footer__navigation,
-  .footer__shop,
-  .footer__follow_us {
-    flex-basis: 100%;
-  }
-  
-}
+
+
 
 
 
