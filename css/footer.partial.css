@@ -46,7 +46,7 @@
 .footer__caption {
   font-size: 18px;
   margin-bottom: 10px;
-
+  margin-left: 20px;
 }
 
 .footer__divider {
@@ -54,6 +54,7 @@
   width: 60px;
   background-color: #f40106;
   margin-bottom: 15px;
+  margin-left: 20px;
 
 }
 
@@ -110,7 +111,7 @@
   padding: 15px;
   display: flex;
   flex-direction: row;
-  align-items: baseline;
+  align-items: space-between;
 }
 
 .footer__creators,
