@@ -1,0 +1,48 @@
+Messi goals
+function goals (laLigaGoals, copaDelReyGoals, championsLeagueGoals) {
+  return laLigaGoals+copaDelReyGoals+championsLeagueGoals;
+} 
+
+
+
+Return negative
+function makeNegative(num) {
+  return -Math.abs(num);
+}
+
+
+Terminal game
+function move (position, roll) {
+ return (position + roll * 2);
+}
+
+
+Personalised messaged
+function greet (name, owner) {
+if (name === owner) {
+  return ("Hello boss");
+  } else {
+  return ("Hello guest"); }
+Keep hydrated
+function litres(time) {
+ return Math.floor(time * 0.5);
+}
+
+
+
+Opossites Attract
+function lovefunc(flower1, flower2){
+let inLove = false;
+let petals1, petals2;
+petals1 = (flower1 % 2) == 0;
+petals2 = (flower2 % 2) == 0;
+ if (petals1 != petals2) {
+      inLove = true;
+    }
+    return inLove;
+}
+
+
+return flower1 % 2 !== flower2 % 2;
+return (flower1 + flower2) % 2 === 1
+
