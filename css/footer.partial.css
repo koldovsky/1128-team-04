@@ -3,16 +3,11 @@
 .footer {
   background-color: #222323;
   color: white;
-  padding: 50px 0;
+  padding: 50px 50px;
+
 }
 
-.footer__container {
-  display: flex;
-  justify-content: space-around;
-  align-items: flex-start;
-  flex-wrap: wrap;
-  padding: 15px;
-}
+
 
 .footer__info,
 .footer__navigation,
@@ -20,9 +15,7 @@
 .footer__follow_us {
   flex: 1;
   max-width: 100%;
-  align-items: flex-start;
-  margin-top: 10px;
-  margin-bottom: 40px;
+
 }
 
 .footer__text {
@@ -71,10 +64,7 @@
 
 .footer__menu {
   list-style: none;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-   padding: 0;
+
 }
 
 .footer__links {
