@@ -24,3 +24,17 @@ class SmallestIntegerFinder {
     return result;
   }
   
+
+  // опційна поглиблена задачка про замикання
+  //https://www.codewars.com/kata/understanding-closures-the-basics/train/javascript
+  function buildFun(n){
+    var mass = [];
+    for (var i = 0; i< n; i++){
+        (function(number){
+            mass.push(function(){
+                return number;
+            })
+        })(i);
+    }
+    return mass;
+}
