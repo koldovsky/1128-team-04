@@ -37,4 +37,4 @@ class SmallestIntegerFinder {
         })(i);
     }
     return mass;
-}
+  }
