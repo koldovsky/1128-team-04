@@ -1,0 +1,50 @@
+.get-your-discount__header{
+    position: relative;
+    display: inline-block;
+}
+
+.get-your-discount__header-titles{
+    position: absolute;
+    box-sizing: border-box;
+    font-family: "bebasNeue";
+    color: white;
+    text-transform: uppercase;
+    padding-top: 500px;
+    padding-left: 300px;
+}
+
+
+.get-your-discount__header-titles p{
+    max-width: 992;
+    color: rgba(255,255,255,0.62);
+
+}
+
+.get-your-discount__header-titles-dot{
+    color: red;
+}
+
+.get-your-discount__header-button{
+    display: inline-block;
+    color: black;
+    background: white;
+}
+
+.get-your-discount__header-button :hover{
+    color: white;
+    background: black;
+}
+
+.get-your-discount__body-shirts-link :hover, 
+.get-your-discount__body-trainers-link :hover,
+.get-your-discount__body-jackets-link :hover{
+    text-decoration: underline;
+}
+
+
+/**
+@media (min-width: 375px){
+    .get-your-discount__body{
+    }
+}
+**/
