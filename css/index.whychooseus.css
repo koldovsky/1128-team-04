@@ -52,26 +52,7 @@
     }
 }
 
-/*
-@media (min-width: 768px) {
-    .wcu-set {
-        flex-direction: row;
-        flex-wrap: nowrap;
-    }
-
-    .wcu-set__newarrivals {
-        flex: 50%;
-        min-width: 328.600px;
-    }
-
-    .wcu-set__trainers, .wcu-set__hotsale {
-        flex: 25%;
-        min-width: 149.300px;
-    }
-} 
-*/
-
-.wcu-set div {
+.wcu-set .wcu-set__item {
     min-height: 303.128px;
     min-width: 272px;
     background-size: cover;
@@ -114,20 +95,11 @@
 
 .wcu-set__newarrivals {
     background-image: url(../img/newarrivals.svg);
-    background-position: left -20px center!important;
+    background-position: left -5% center!important;
     background-size: cover;
     background-repeat: no-repeat;
     padding-right: 0;
 }
-
-/*
-.wcu-set__newarrivals {
-    background-image: url(../img/newarrivals.svg);
-    background-position-x: 14.53%, 0%;
-    background-position-y: 36.12%, 0%;
-    background-size: cover;
-    background-repeat: no-repeat;
-} */
 
 .wcu-set__trainers {
     background-image: url(../img/trainers.png);
@@ -137,11 +109,12 @@
     background-image: url(../img/hotsale.png);
 }
 
-.wcu-set div hr {
+.wcu-set__red-line {
+    background-color: var(--red-color);
     width: 15%;
-    border: 2px solid var(--red-color);
+    height: 2px;
+    border-radius: 15px;
     margin: 15px 0;
-    border-radius: 10px;
 }
 
 .wcudot {
