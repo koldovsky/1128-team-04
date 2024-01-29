@@ -122,9 +122,15 @@
   margin: 5px 0;
 }
 
+.footer__creators{
+  grid-column: 1/4;
+}
+.footer__copyright {
+  grid-column: 4/6;
+  justify-content: end;
+}
 
-
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 640px) {
 
   .footer,
   .footer__container,
