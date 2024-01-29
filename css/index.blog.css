@@ -1,5 +1,5 @@
 .blog {
-  max-width: 1200px;
+  min-width: 320px;
   margin: auto;
 }
 .blog__header-title {
