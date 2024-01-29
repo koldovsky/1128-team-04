@@ -7,6 +7,13 @@
 
 }
 
+@media (min-width: 800px) {
+.footer__bottom {
+    flex-direction: row;
+    align-items: baseline;
+}
+}
+
 .footer__container {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -110,7 +117,7 @@
   padding: 15px;
   display: flex;
   flex-direction: row;
-  align-items: center; 
+  justify-content: space-between;
 }
 
 .footer__creators,
