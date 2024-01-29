@@ -8,7 +8,7 @@
 }
 
 @media (min-width: 800px) {
-.footer__bottom {
+.footer__creators, .footer__copyright {
     flex-direction: row;
     align-items: baseline;
 }
@@ -111,20 +111,18 @@
   filter: invert(0.15);
 }
 
-.footer__bottom {
+.footer__creators, .footer__copyright {
   background-color: #222323;
   color: white;
   padding: 15px;
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
-}
-
-.footer__creators,
-.footer__copyright {
+  justify-content: space-between; 
   font-size: 14px;
   margin: 5px 0;
 }
+
+
 
 @media screen and (max-width: 360px) {
 
