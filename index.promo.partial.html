@@ -1,19 +1,20 @@
 <section class="promo">
-    <div class="promo__block">
-        <img src="img/promo-img.png" alt="Promo image">
-        <div class="header-promo">
-            <div class="promo-image">
+    <div class="promo__wrapper">
+        <div class="promo__wrapper-label">
+            <div class="promo__wrapper-label-img">
                 <img src="img/promo-mail.svg" alt="Mail Picture">
             </div>
-            <div class="promo-text">
+            <div class="promo__wrapper-label-text">
                 10% OFF YOUR FIRST ORDER. SIGN UP TO OUR NEWSLETTER TO GET THIS SPECIAL OFFER.
             </div>
         </div>
-        <form action="subscribe.php" method="post">
-            <div class="email">
-                <input type="email" id="email" name="email" placeholder="Your email address" required>
-                <button type="submit">Subscribe</button>
-            </div>
-        </form>
+        <form action="https://formspree.io/f/xeqyedra" method="POST">
+				<label>
+					Your email:
+					<input type="email" name="email">
+				</label>
+				
+				<button type="submit">Subscribe</button>
+			</form>
     </div>
 </section>
