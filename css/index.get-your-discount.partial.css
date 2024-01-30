@@ -1,3 +1,4 @@
+/*header*/
 .get-your-discount__header{
     background-image: url('../img/get-your-discount.png');
     min-width: 320px;
@@ -5,7 +6,6 @@
     background-repeat: no-repeat;
     display: block;
     position: relative;
-    text-align: start;
     background-attachment: scroll;
     object-fit: cover;
     background-size: cover;
@@ -13,7 +13,6 @@
     margin-top: 70px;
     margin-bottom: 70px;
 }
-
 
 .get-your-discount__header-titles{
     position: absolute;
@@ -23,7 +22,6 @@
     padding-top: 40%;
     padding-left: 7%;
 }
-
 
 .get-your-discount__header-titles p{
     color: rgba(255,255,255,0.62);
@@ -65,10 +63,51 @@
     background-color: black;
 }
 
-.get-your-discount__body-shirts-link :hover, 
-.get-your-discount__body-trainers-link :hover,
-.get-your-discount__body-jackets-link :hover{
+/*body*/
+.get-your-discount__body{
+    background-repeat: no-repeat;
+    color: white;
+}
+
+.get-your-discount__body a{
+    font-size: 15px;
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.get-your-discount__body a:hover{
     text-decoration: underline;
+}
+
+.get-your-discount__body p{
+    font-size: 20px;
+    padding-bottom: 10px;
+    padding-top: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.get-your-discount__body-shirts{
+    position: relative;
+    background-image: url('../img/all-t-shirts.png');
+    background-repeat: no-repeat;
+    text-align: center;
+    background-size: cover;
+    object-fit: cover;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 15px;
+    margin-left: 7%;
+    margin-right: 7%;
+    min-height: 20vh;
+    margin-bottom: 5vh;
+}
+.get-your-discount__body-shirts-back{
+    position: absolute;
+    background-color:  rgba(0, 0, 0, 0.7);
 }
 
 
