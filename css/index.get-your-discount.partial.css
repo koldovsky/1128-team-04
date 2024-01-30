@@ -1,15 +1,17 @@
 .get-your-discount__header{
     background-image: url('../img/get-your-discount.png');
-    background-size: 100% 100%;
+    min-width: 320px;
+    min-height: 446px;
     background-repeat: no-repeat;
-    background-attachment: scroll;
-    box-sizing: border-box;
-    color: black;
     display: block;
     position: relative;
     text-align: start;
-    padding-top: 5%;
-    height: auto;
+    background-attachment: scroll;
+    object-fit: cover;
+    background-size: cover;
+    background-position: center;
+    margin-top: 70px;
+    margin-bottom: 70px;
 }
 
 
@@ -18,20 +20,22 @@
     font-family: "bebasNeue", sans-serif;
     text-transform: uppercase;
     text-align: start;
-    padding-left: 5%;
-    padding-top: 5%;
+    padding-top: 40%;
+    padding-left: 7%;
 }
 
 
 .get-your-discount__header-titles p{
     color: rgba(255,255,255,0.62);
     font-weight: 400;
+    font-size: 18px;
+    margin-bottom: 1%;
 }
 
 .get-your-discount__header-titles h2{
     text-align: start;
     color: rgb(255,255,255);
-    font-size: 30px;
+    font-size: 55px;
     font-weight: 500;
 }
 
@@ -52,7 +56,7 @@
     padding-bottom: 15px;
     padding-left: 25px;
     padding-right: 25px;
-    left: 5%;
+    left: 7%;
     top: 65%;
 }
 
@@ -69,30 +73,26 @@
 
 
 @media (min-width: 480px){
-    .get-your-discount__header-image{
-        height: 100%;
-        width: 100%;
-        overflow: hidden;
-
+    .get-your-discount__header-titles{
+        padding-top: 30%;
+        padding-left: 7%;
     }
     .get-your-discount__header-titles p{
-        font-size: 22px;
-        padding-top: 7%;
+        font-size: 25px;
         margin-bottom: 1%;
     }
     .get-your-discount__header-titles h2{
-        font-size: 50px;
-        padding-bottom: 7%;
+        font-size: 65px;
     }
     .get-your-discount__header-button button{
-        left: 5%;
+        left: 7%;
         top: 65%;
     }
 }
 
 @media (min-width: 576px){
     .get-your-discount__header-titles{
-        padding-top: 4%;
+        padding-top: 15%;
         padding-left: 7%;
     }
     .get-your-discount__header-titles p{
@@ -101,8 +101,7 @@
         margin-bottom: 2%;
     }
     .get-your-discount__header-titles h2{
-        font-size: 65px;
-        padding-bottom: 9%;
+        font-size: 80px;
     }
     .get-your-discount__header-button button{
         left: 7%;
@@ -111,44 +110,57 @@
 }
 
 @media (min-width: 768px){
+    .get-your-discount__header{
+        height: 70vh;
+    }
     .get-your-discount__header-titles{
-        padding-top: 4%;
-        padding-left: 7%;
+        padding-top: 12%;
+        padding-left: 8%;
     }
     .get-your-discount__header-titles p{
         font-size: 25px;
-        padding-top: 10%;
         margin-bottom: 2%;
     }
     .get-your-discount__header-titles-discount{
         display: block;
     }
     .get-your-discount__header-titles h2{
-        font-size: 80px;
-        padding-bottom: 9%;
+        font-size: 85px;
     }
     .get-your-discount__header-button button{
-        left: 7%;
-        top: 77%;
+        left: 8%;
+        top: 70%;
     }
 }
 
 @media (min-width: 992px){
-    .get-your-discount__header-titles-discount{
-    display: block;
-}
-.get-your-discount__header-titles h2{
-    font-size: 90px;
-    padding-bottom: 9%;
-}
+    .get-your-discount__header{
+        height: 87vh;
+    }
+        .get-your-discount__header-titles-discount{
+        display: block;
+    }
+    .get-your-discount__header-titles h2{
+        font-size: 90px;
+    }
+        .get-your-discount__header-button button{
+        left: 8%;
+        top: 65%;
+    }
 }
 
 @media (min-width: 1200px){
+    .get-your-discount__header{
+        height: 90vh;
+    }
     .get-your-discount__header-titles-discount{
     display: block;
-}
-.get-your-discount__header-titles h2{
-    font-size: 110px;
-    padding-bottom: 9%;
-}
+    }
+    .get-your-discount__header-titles h2{
+        font-size: 110px;
+    }
+    .get-your-discount__header-button button{
+        left: 8%;
+        top: 77%;
+    }
 }
