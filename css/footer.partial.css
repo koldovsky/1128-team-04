@@ -3,57 +3,100 @@
 .footer {
   background-color: #222323;
   color: white;
+  padding: 30px 20px;
+
+}
+
+@media (min-width: 800px) {
+.footer__creators, .footer__copyright {
+    flex-direction: row;
+    align-items: baseline;
+}
 }
 
 .footer__container {
-  display: flex;
-  justify-content: space-around;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 10px;
   align-items: flex-start;
-  flex-wrap: wrap;
-  padding: 30px;
+  justify-content: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+
 }
 
-.footer__summary,
+.footer__info,
 .footer__navigation,
 .footer__shop,
 .footer__follow_us {
-  flex: 1;
-  max-width: 300px;
-  margin-bottom: 20px;
+  grid-column: span 1;
 }
 
-.footer__text {
-  line-height: 1.5;
+.footer__info {
+  align-items: center;
 }
+
+.footer__logo img {
+  width: 100%;
+  max-width: 150px;
+}
+
+.footer__summary {
+  color: #9b9b9b;
+  margin-top: 15px;
+  font-size: 14px;
+}
+
+
 
 .footer__caption {
-  font-size: 20px;
+  font-size: 18px;
   margin-bottom: 10px;
+  margin-left: 40px;
 }
 
 .footer__divider {
   height: 2px;
-  width: 50%;
+  width: 60px;
   background-color: #f40106;
   margin-bottom: 15px;
+  margin-left: 40px;
+
 }
 
-.footer__menu {
+.footer__menu,
+.footer__links {
   list-style-type: none;
 }
 
-.footer__menu-item {
+.footer__links {
+  display: flex;
+  flex-direction: row;
+
+}
+
+/*.footer__dividers {
+  width: 90%;
+  color: #9b9b9b;
+}*/
+
+
+.footer__menu-item,
+.footer__links li {
   margin-bottom: 8px;
 }
 
 .footer__menu-item a,
+.footer__links a,
 .footer__text,
 .footer__caption {
   text-decoration: none;
   color: white;
 }
 
-.footer__menu-item a:hover {
+.footer__menu-item a:hover,
+.footer__links a:hover {
   color: #f40106;
   text-decoration: underline;
 }
@@ -64,15 +107,45 @@
   margin-right: 10px;
 }
 
-.footer__bottom {
-  background-color: #222323;
-  color: white;
-  text-align: center;
-  padding: 15px;
+.media_logo:hover {
+  filter: invert(0.15);
 }
 
-.footer__creators,
-.footer__copyright {
+.footer__creators, .footer__copyright {
+  background-color: #222323;
+  color: white;
+  padding: 15px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between; 
   font-size: 14px;
   margin: 5px 0;
 }
+
+.footer__creators{
+  grid-column: 1/4;
+}
+.footer__copyright {
+  grid-column: 4/6;
+  justify-content: end;
+}
+
+@media screen and (max-width: 640px) {
+
+  .footer,
+  .footer__container,
+  .footer__info,
+  .footer__navigation,
+  .footer__shop,
+  .footer__follow_us {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+  }
+}
+  
+
+
+
+
+

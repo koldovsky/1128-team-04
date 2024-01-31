@@ -1,0 +1,205 @@
+/*header*/
+.get-your-discount__header{
+    background-image: url('../img/get-your-discount.png');
+    min-width: 320px;
+    min-height: 446px;
+    background-repeat: no-repeat;
+    display: block;
+    position: relative;
+    background-attachment: scroll;
+    object-fit: cover;
+    background-size: cover;
+    background-position: center;
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+
+.get-your-discount__header-titles{
+    position: absolute;
+    font-family: "bebasNeue", sans-serif;
+    text-transform: uppercase;
+    text-align: start;
+    padding-top: 40%;
+    padding-left: 7%;
+}
+
+.get-your-discount__header-titles p{
+    color: rgba(255,255,255,0.62);
+    font-weight: 400;
+    font-size: 18px;
+    margin-bottom: 1%;
+}
+
+.get-your-discount__header-titles h2{
+    text-align: start;
+    color: rgb(255,255,255);
+    font-size: 55px;
+    font-weight: 500;
+}
+
+.get-your-discount__header-titles-dot{
+    color: red;
+}
+
+.get-your-discount__header-button button{
+    position: absolute;
+    color: black;
+    background-color: white;
+    cursor: pointer;
+    box-sizing: border-box;
+    font-family: "PTSans1";
+    font-size: 16.5px;
+    font-weight: 700;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
+    left: 7%;
+    top: 65%;
+}
+
+.get-your-discount__header-button :hover{
+    color: white;
+    background-color: black;
+}
+
+/*body*/
+.get-your-discount__body{
+    background-repeat: no-repeat;
+    color: white;
+}
+
+.get-your-discount__body a{
+    font-size: 15px;
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.get-your-discount__body a:hover{
+    text-decoration: underline;
+}
+
+.get-your-discount__body p{
+    font-size: 20px;
+    padding-bottom: 10px;
+    padding-top: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.get-your-discount__body-shirts{
+    position: relative;
+    background-image: url('../img/all-t-shirts.png');
+    background-repeat: no-repeat;
+    text-align: center;
+    background-size: cover;
+    object-fit: cover;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 15px;
+    margin-left: 7%;
+    margin-right: 7%;
+    min-height: 20vh;
+    margin-bottom: 5vh;
+}
+.get-your-discount__body-shirts-back{
+    position: absolute;
+    background-color:  rgba(0, 0, 0, 0.7);
+}
+
+
+@media (min-width: 480px){
+    .get-your-discount__header-titles{
+        padding-top: 30%;
+        padding-left: 7%;
+    }
+    .get-your-discount__header-titles p{
+        font-size: 25px;
+        margin-bottom: 1%;
+    }
+    .get-your-discount__header-titles h2{
+        font-size: 65px;
+    }
+    .get-your-discount__header-button button{
+        left: 7%;
+        top: 65%;
+    }
+}
+
+@media (min-width: 576px){
+    .get-your-discount__header-titles{
+        padding-top: 15%;
+        padding-left: 7%;
+    }
+    .get-your-discount__header-titles p{
+        font-size: 25px;
+        padding-top: 10%;
+        margin-bottom: 2%;
+    }
+    .get-your-discount__header-titles h2{
+        font-size: 80px;
+    }
+    .get-your-discount__header-button button{
+        left: 7%;
+        top: 67%;
+    }
+}
+
+@media (min-width: 768px){
+    .get-your-discount__header{
+        height: 70vh;
+    }
+    .get-your-discount__header-titles{
+        padding-top: 12%;
+        padding-left: 8%;
+    }
+    .get-your-discount__header-titles p{
+        font-size: 25px;
+        margin-bottom: 2%;
+    }
+    .get-your-discount__header-titles-discount{
+        display: block;
+    }
+    .get-your-discount__header-titles h2{
+        font-size: 85px;
+    }
+    .get-your-discount__header-button button{
+        left: 8%;
+        top: 70%;
+    }
+}
+
+@media (min-width: 992px){
+    .get-your-discount__header{
+        height: 87vh;
+    }
+        .get-your-discount__header-titles-discount{
+        display: block;
+    }
+    .get-your-discount__header-titles h2{
+        font-size: 90px;
+    }
+        .get-your-discount__header-button button{
+        left: 8%;
+        top: 65%;
+    }
+}
+
+@media (min-width: 1200px){
+    .get-your-discount__header{
+        height: 90vh;
+    }
+    .get-your-discount__header-titles-discount{
+    display: block;
+    }
+    .get-your-discount__header-titles h2{
+        font-size: 110px;
+    }
+    .get-your-discount__header-button button{
+        left: 8%;
+        top: 77%;
+    }
+}
