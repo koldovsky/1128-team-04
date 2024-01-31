@@ -1,13 +1,22 @@
 .blog {
+  padding-top: 90px;
+  padding-bottom: 90px;
+  display: block;
   min-width: 320px;
+  max-width: 1200px;
   margin: auto;
+}
+.blog__header {
+  text-align: center;
+    margin-bottom: -10px;
+    justify-content: center;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 .blog__header-title {
   text-align: center;
   font-family: "bebasNeue", cursive;
   font-size: 52px;
-}
-.blog__header-title-main {
   color: var(--custom-black);
 }
 .blog__header-title-dot {
@@ -32,10 +41,42 @@
 .blog__cards {
   display: flex;
   flex-direction: column;
+  padding: 20px;
 }
-.blog__cards-card {
-  padding: 10px;
-  box-sizing: border-box;
+
+.blog__cards-card-image img {
+  width: 100%;
+  height: auto;
+}
+/* Card date styling */
+.blog__cards-card-date {
+  color: var(--custom-black);
+  padding-top: 15px;
+  font-family: "bebasNeue", cursive;
+  font-size: 12px;
+}
+
+/* Card title styling */
+.blog__cards-card-title a {
+  color: var(--custom-black);
+  text-decoration: none;
+  font-family: "bebasNeue", cursive;
+  font-size: 24px;
+}
+
+.blog__cards-card-title a:hover {
+  text-decoration: none;
+}
+
+/* Card text styling */
+.blog__cards-card-text p {
+  color: var(--custom-gray);
+  text-decoration: none;
+  font-family: "PT Sans", sans-serif;
+  font-size: 16px;
+}
+.blog__cards-card-text a {
+  text-decoration: none;
 }
 /* Media query for larger screens */
 @media screen and (min-width: 768px) {
