@@ -1,38 +1,64 @@
 .get-your-discount__header{
+    background-image: url('../img/get-your-discount.png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    box-sizing: border-box;
+    color: black;
+    display: block;
     position: relative;
-    display: inline-block;
+    text-align: start;
+    padding-top: 5%;
+    height: auto;
 }
+
 
 .get-your-discount__header-titles{
     position: absolute;
-    box-sizing: border-box;
-    font-family: "bebasNeue";
-    color: white;
+    font-family: "bebasNeue", sans-serif;
     text-transform: uppercase;
-    padding-top: 500px;
-    padding-left: 300px;
+    text-align: start;
+    padding-left: 5%;
+    padding-top: 5%;
 }
 
 
 .get-your-discount__header-titles p{
-    max-width: 992;
     color: rgba(255,255,255,0.62);
+    font-weight: 400;
+}
 
+.get-your-discount__header-titles h2{
+    text-align: start;
+    color: rgb(255,255,255);
+    font-size: 30px;
+    font-weight: 500;
 }
 
 .get-your-discount__header-titles-dot{
     color: red;
 }
 
-.get-your-discount__header-button{
-    display: inline-block;
+.get-your-discount__header-button button{
+    position: absolute;
     color: black;
-    background: white;
+    background-color: white;
+    cursor: pointer;
+    box-sizing: border-box;
+    font-family: "PTSans1";
+    font-size: 16.5px;
+    font-weight: 700;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
+    left: 5%;
+    top: 65%;
 }
 
 .get-your-discount__header-button :hover{
     color: white;
-    background: black;
+    background-color: black;
 }
 
 .get-your-discount__body-shirts-link :hover, 
@@ -42,9 +68,87 @@
 }
 
 
-/**
-@media (min-width: 375px){
-    .get-your-discount__body{
+@media (min-width: 480px){
+    .get-your-discount__header-image{
+        height: 100%;
+        width: 100%;
+        overflow: hidden;
+
+    }
+    .get-your-discount__header-titles p{
+        font-size: 22px;
+        padding-top: 7%;
+        margin-bottom: 1%;
+    }
+    .get-your-discount__header-titles h2{
+        font-size: 50px;
+        padding-bottom: 7%;
+    }
+    .get-your-discount__header-button button{
+        left: 5%;
+        top: 65%;
     }
 }
-**/
+
+@media (min-width: 576px){
+    .get-your-discount__header-titles{
+        padding-top: 4%;
+        padding-left: 7%;
+    }
+    .get-your-discount__header-titles p{
+        font-size: 25px;
+        padding-top: 10%;
+        margin-bottom: 2%;
+    }
+    .get-your-discount__header-titles h2{
+        font-size: 65px;
+        padding-bottom: 9%;
+    }
+    .get-your-discount__header-button button{
+        left: 7%;
+        top: 67%;
+    }
+}
+
+@media (min-width: 768px){
+    .get-your-discount__header-titles{
+        padding-top: 4%;
+        padding-left: 7%;
+    }
+    .get-your-discount__header-titles p{
+        font-size: 25px;
+        padding-top: 10%;
+        margin-bottom: 2%;
+    }
+    .get-your-discount__header-titles-discount{
+        display: block;
+    }
+    .get-your-discount__header-titles h2{
+        font-size: 80px;
+        padding-bottom: 9%;
+    }
+    .get-your-discount__header-button button{
+        left: 7%;
+        top: 77%;
+    }
+}
+
+@media (min-width: 992px){
+    .get-your-discount__header-titles-discount{
+    display: block;
+}
+.get-your-discount__header-titles h2{
+    font-size: 90px;
+    padding-bottom: 9%;
+}
+}
+
+@media (min-width: 1200px){
+    .get-your-discount__header-titles-discount{
+    display: block;
+}
+.get-your-discount__header-titles h2{
+    font-size: 110px;
+    padding-bottom: 9%;
+}
+}
