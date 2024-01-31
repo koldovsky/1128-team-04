@@ -4,4 +4,5 @@ document.addEventListener('partialsLoaded', () => {
     import('./get-your-discount.js')
     import('./brands.js');
     import('./blog.js');
+    import('./coundown.js');
 });
