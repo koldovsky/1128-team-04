@@ -129,7 +129,6 @@
 
 .wcu-set__newarrivals {
     background-image: url(../img/newarrivals.svg);
-    background-position: calc(0% - 20px) top;
     background-size: cover;
     background-repeat: no-repeat;
     padding-right: 0;
