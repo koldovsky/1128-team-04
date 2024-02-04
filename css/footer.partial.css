@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans&display=swap");
 
 .footer {
   background-color: #222323;
@@ -47,9 +48,12 @@
   color: #9b9b9b;
   margin-top: 15px;
   font-size: 14px;
+  font-family: "PT Sans", serif;
 }
 
-
+.footer__menu {
+  font-family: "PT Sans", serif;
+}
 
 .footer__caption {
   font-family: "Bebas Neue", serif;
