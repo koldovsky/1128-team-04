@@ -59,7 +59,13 @@
   font-family: "Bebas Neue", serif;
   font-size: 24px;
   margin-bottom: 10px;
-  margin-left: 40px;
+  margin-left: 33px;
+}
+.footer__caption__last {
+  font-family: "Bebas Neue", serif;
+  font-size: 24px;
+  margin-bottom: 10px;
+  margin-left: 80px;
 }
 
 .footer__divider {
