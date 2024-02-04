@@ -35,7 +35,9 @@
 .footer__follow_us {
   grid-column: span 1;
 }
-
+.footer__follow_us {
+  padding-left: 60px;
+}
 .footer__info {
   align-items: center;
   grid-column: 1 / span 2;
