@@ -62,7 +62,16 @@
   width: 60px;
   background-color: #f40106;
   margin-bottom: 15px;
-  margin-left: 40px;
+  margin-left: 30px;
+
+}
+
+.footer__divider__last {
+  height: 2px;
+  width: 60px;
+  background-color: #f40106;
+  margin-bottom: 15px;
+  margin-left: 80px;
 
 }
 
