@@ -158,7 +158,7 @@
   justify-content: end;
 }
 
-@media screen and (max-width: 640px) {
+@media only screen and (max-width: 640px) {
   .footer,
   .footer__container,
   .footer__info,
@@ -175,24 +175,24 @@
   }
 }
   
-@media screen and (max-width: 640px) {
+@media only screen and (max-width: 640px) {
   .footer__caption__last {
     margin-right: 45px;
   }
 }
   
-@media screen and (max-width: 640px) {
+@media only screen and (max-width: 640px) {
   .footer__divider {
     margin-left: 180px;
   }
 }
 
-@media screen and (max-width: 640px) {
+@media only screen and (max-width: 640px) {
   .footer__divider__last {
     margin-left: 110px;
   }
 }
-@media screen and (max-width: 640px) {
+@media only screen and (max-width: 640px) {
   .footer__links {
     margin-left: 50px;
 
