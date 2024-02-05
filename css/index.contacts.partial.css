@@ -3,7 +3,7 @@
   position: relative;
 }
 .contacts__main {
-  position: relative;
+  position: absolute;
   top: 16px;
   right: 128px;
   background-color: #F5F5F5;
