@@ -99,7 +99,8 @@
 .footer__links {
   display: flex;
   flex-direction: row;
-  gap: 10px;
+  gap: 6px;
+  margin-left: -12px;
 
 }
 
