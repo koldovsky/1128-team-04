@@ -1,49 +1,45 @@
-/* @media (min-width: 800px) {
-	/* .promo__wrapper {
-	  height: 215px;
-	  display: flex;
-	  flex-direction: row;
-	  justify-content: flex-end;
-	  align-items: center;
-	  background-position: center;
-	  background-image: url(/img/promo-img.png);
-	} */
+.promo {
+	display: flex;
+}
 
-	/* .promo__wrapper {
-		display: flex;
-		flex-direction: column;
-		
-		background-position: center;
-		width: 100%;
-		height: 380px;
-		justify-content: end;
-		padding: 35px;
-  	} */
+.promo__wrapper {
+	display: flex;
+	flex-direction: row;
+	background-image: url(/img/promo-img.png);
+	background-position: center;
+	width: 100%;
+	height: 215px;
+	justify-content: flex-end;
+	padding: 35px;
+	align-items: center;
+}
 
+.promo__wrapper-label{
+	display: flex;
+	width: 25%;
 
-@media (min-width: 800px) {
-	.promo__wrapper
- {
-	  height: 215px;
-	  display: flex;
-	  flex-direction: row;
-	  justify-content: flex-end;
-	  align-items: center;
-	  background-position: center;
-	  display: flex;
-	  flex-direction: column;
-	  background-image: url(../img/offer-img.png);
-	  background-position: center;
-	  width: 100%;
-	  height: 380px;
-	  justify-content: end;
-	  padding: 35px;
-	}
- }
-  
- *, p, ul
- {
-	padding: 0px;
-	margin: 0px;
-	box-sizing: border-box;
- }
+}
+
+.promo__wrapper-label-img{
+	margin: 5px;
+}
+
+.promo__wrapper-form{
+	display: flex;
+	width: 25%;
+}
+
+.promo__wrapper-form-input{
+	width: 100%;
+}
+
+.promo__wrapper-form-btn{
+	width: 100%;
+	background-color: var(--red-color);
+	color: var(--white-color);
+
+}
+.promo__wrapper-form-btn:hover{
+	background-color: var(--custom-black);
+	transition: background-color 1s ease-in-out;
+}

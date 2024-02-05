@@ -83,19 +83,26 @@
     cursor: pointer;
     padding: 15px 20px;
     font-family: "PTSans1";
+    color: var(--ui-dark-accent-color);
+}
+
+.main-collection__nav-item:hover {
     color: var(--custom-gray);
 }
 
 .active-item{
     border-bottom: 3px solid var(--red-color);
+    color: var(--custom-gray);
 }
 
 .main-collection__divider-line{
+    background-color: var(--wcu-advantages-hr-color);
     width: 99%;
-    height: 3px;
+    height: 2px;
     margin: 0;
-    opacity: .075;
-    margin-top: -1px;
+    opacity: .75;
+    margin-top: -1.5px;
+    z-index: -1;
 }
 
 /* Default styles for all screen sizes */
@@ -163,6 +170,10 @@
     color: white;
     font-size: 14px;
     font-weight: 600;
+}
+
+.main-collection__button:hover{
+    background-color: var(--ui-dark-brand-color);
 }
 
 /* Media query for screen sizes below 767px */
