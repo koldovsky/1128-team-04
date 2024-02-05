@@ -1,0 +1,33 @@
+.brands {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: block;
+    min-width: 320px;
+    max-width: 1200px;
+    margin: auto;
+  }
+.brands__carousel {
+    display: flex; 
+}
+.brands__carousel-slides {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.brands__carousel-slides-item {
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+    border: 1px solid var(--wcu-advantages-hr-color);
+    width: calc(100% / 4); /* Adjust the width based on the number of slides to show (4 slides in this case) */
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--white-color);
+}
+.brands__carousel-slides-item img {
+   max-width: 100%; 
+   max-height: 100%;
+   display: block;
+}
+
