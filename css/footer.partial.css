@@ -204,12 +204,7 @@
 
   }
 }
-@media only screen and (max-width: 640px) {
-  .footer__links {
-    margin-left: 10px;
 
-  }
-}
 
 @media only screen and (max-width: 640px) {
   .footer__caption {
