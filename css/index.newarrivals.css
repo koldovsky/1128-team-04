@@ -3,16 +3,17 @@
   padding-left: 0px;
   padding-right: 0px;
   padding-bottom: 60px;
+  text-decoration: none;
 }
 
-.arrivals_header {
+.arrivals__header {
   text-align: center;
   justify-content: center;
   display: block;
   height: auto;
   width: auto;
 }
-.arrivals h2 {
+.arrivals__title {
   display: block;
   height: auto;
   width: auto;
@@ -26,6 +27,20 @@
   color: var(--red-color);
 }
 
+.arrivals__divider {
+  margin-left: 70px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  display: flex;
+  justify-content: left;
+}
+
+.arrivals__divider-icon {
+  width: 33%;
+  height: 2px;
+  background-color: var(--wcu-advantages-hr-color);
+}
+
 .arrivals__text {
   display: block;
   text-align: left;
@@ -37,20 +52,42 @@
   color: var(--custom-gray);
   }
 
+.arrivals__link {
+text-decoration: none;
+}
 .arrivals__button {
   display: block;
+  margin-left: 70px;
+  margin-right: 90px;
+  margin-top: 35px;
+  margin-bottom: 50px;
+  padding: 10px;
   font-family: "PTSans1";
+  font-weight: bold;
   background-color: var(--white-color);
   color: var(--custom-black);
   text-align: center;
-  border-width: 1.6px;
+  border-width: 2px;
+  border-radius: 0;
+  border-color: var(--custom-black);
+  border-style: solid;
+  position: relative;
+  }
+
+.arrivals__items {
+  margin-left: 35px;
+  margin-right: 20px;
+}
+
+.arrivals__item-title-link {
+  text-decoration: none;
+  color: var(--custom-gray);
 }
 
 .arrivals__item-title {
   font-family: "PTSans1", sans-serif;
   font-size: 1.125rem;
   color: var(--custom-gray);
-  text-decoration: none;
 }
 
 .arrivals__item-price {
