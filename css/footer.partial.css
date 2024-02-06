@@ -221,9 +221,4 @@
   }
 }
 
-@media only screen and (max-width: 640px) {
-  .footer__logo {
-    margin-left: 100px;
 
-  }
-}
