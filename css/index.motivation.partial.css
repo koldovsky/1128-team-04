@@ -1,0 +1,79 @@
+.motivation {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  height: 100vh;
+  background-image: url("/img/motivation.jpg");
+  background-size: cover;
+}
+
+.motivation__inner {
+  width: 100%;
+  max-width: 500px;
+  line-height: 1.1;
+}
+
+.motivation__title {
+  font-size: 64px;
+  font-weight: 700;
+  margin: 0;
+  text-transform: uppercase;
+  text-align: left;
+  color: #fefefe;
+}
+
+.motivation__subtitle {
+  font-size: 22px;
+  color: #fefefe;
+  line-height: 1.5;
+  padding-bottom: 30px;
+}
+
+.motivation__inner span {
+  font-size: 10px;
+  color: red;
+}
+
+/* Button */
+
+.motivation__btn {
+  display: inline-block;
+  vertical-align: top;
+  font-size: 20px;
+  color: var(--custom-black);
+  font-weight: 600;
+  text-transform: uppercase;
+  padding: 14px 40px;
+  text-decoration: none;
+  background-color: var(--white-color);
+}
+
+.motivation__btn:hover {
+  color: var(--white-color);
+  background-color: var(--ui-dark-brand-color);
+  transition: all 0.2s ease;
+}
+
+@media (max-width: 768px) {
+  .motivation__inner {
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  .motivation__title {
+    text-align: center;
+    font-size: 36px;
+  }
+
+  .motivation__subtitle {
+    text-align: center;
+    font-size: 16px;
+    padding-bottom: 15px;
+  }
+
+  .motivation__btn {
+    font-size: 14px;
+    padding: 10px 20px;
+  }
+}

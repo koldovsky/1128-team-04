@@ -6,12 +6,11 @@
 @import "index.maincollections.partial.css";
 @import "index.brands.css";
 @import "index.blog.css";
-@import "index.shopcart.partial.css";
 @import "header.css";
 @import "index.timer-for-dicount.partial.css";
 @import "index.newarrivals.css";
 @import "index.main.mid-season-sale.css";
 @import "index.about-us.partial.css";
-@import "index.shopcart.partial.css";
 @import "index.get-your-discount.partial.css";
-@import "index.promo.partial.css"; 
+@import "index.promo.partial.css";
+@import "index.motivation.partial.css";
