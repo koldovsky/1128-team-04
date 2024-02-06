@@ -180,7 +180,8 @@
   
 @media only screen and (max-width: 640px) {
   .footer__caption__last {
-    margin-right: 100px;
+    margin-right: 120px;
+    margin-top: 18px;
   }
 }
 @media only screen and (max-width: 640px) {
@@ -202,7 +203,7 @@
 
 @media only screen and (max-width: 640px) {
   .footer__divider__last {
-    margin-left: -30px;
+    margin-left: -60px;
   }
 }
 @media only screen and (max-width: 640px) {
