@@ -13,6 +13,8 @@
 .footer__creators, .footer__copyright {
     flex-direction: row;
     align-items: baseline;
+  margin-top: 20px;
+  padding: 5px;
 }
 }
 
