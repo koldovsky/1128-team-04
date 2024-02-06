@@ -91,7 +91,6 @@
     min-height: 303.128px;
     min-width: 272px;
     background-size: cover;
-    background-position: center;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
@@ -130,7 +129,6 @@
 
 .wcu-set__newarrivals {
     background-image: url(../img/newarrivals.svg);
-    background-position: left -5% center!important;
     background-size: cover;
     background-repeat: no-repeat;
     padding-right: 0;
@@ -138,10 +136,12 @@
 
 .wcu-set__trainers {
     background-image: url(../img/trainers.png);
+    background-position: center;
 }
 
 .wcu-set__hotsale {
     background-image: url(../img/hotsale.png);
+    background-position: center;
 }
 
 .wcu-set__red-line {
