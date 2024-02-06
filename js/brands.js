@@ -15,7 +15,9 @@ function renderSlide() {
 
     for (let i = 0; i < slidesToShow; i++) {
         const index = (slideIdx + i) % slides.length;
-        slideContainer.innerHTML += slides[index];
+        // Wrap the image in a div with the class for styling
+        const slideMarkup = `<div class="brands__carousel-slides-item">${slides[index]}</div>`;
+        slideContainer.innerHTML += slideMarkup;
     }
 }
 
