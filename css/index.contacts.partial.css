@@ -69,8 +69,7 @@
   }
 }
 
-iframe {
-  height: 700px;
+.map {
+  display: flex;
   width: 100%;
-  background-color: #c6c7af;
 }
