@@ -68,3 +68,9 @@
     padding: 40px;
   }
 }
+
+iframe {
+  height: 700px;
+  width: 100%;
+  background-color: #c6c7af;
+}
