@@ -50,6 +50,7 @@
     justify-content: center;
     background-color: var(--white-color);
     margin: 0 10px; /* Optionally add margin for additional spacing */
+    height: 200px; /* Fixed height for consistency */
     overflow: hidden;
 }
 .brands__carousel-slides-item img {

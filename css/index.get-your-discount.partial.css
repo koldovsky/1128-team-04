@@ -64,52 +64,39 @@
 }
 
 /*body*/
-.get-your-discount__body{
-    background-repeat: no-repeat;
-    color: white;
+
+.get-your-discount__body {
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 }
 
-.get-your-discount__body a{
-    font-size: 15px;
-    color: white;
-    text-decoration: none;
-    font-weight: 500;
-}
-
-.get-your-discount__body a:hover{
-    text-decoration: underline;
-}
-
-.get-your-discount__body p{
-    font-size: 20px;
-    padding-bottom: 10px;
-    padding-top: 5px;
-    padding-left: 20px;
-    padding-right: 20px;
-    font-weight: 600;
-    text-transform: uppercase;
-}
-
-.get-your-discount__body-shirts{
-    position: relative;
-    background-image: url('../img/all-t-shirts.png');
-    background-repeat: no-repeat;
+.get-your-discount__body-shirts-text,
+.get-your-discount__body-jackets-text,
+.get-your-discount__body-trainers-text{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     text-align: center;
     background-size: cover;
-    object-fit: cover;
-    padding-top: 50px;
-    padding-bottom: 50px;
-    padding-left: 15px;
-    margin-left: 7%;
-    margin-right: 7%;
-    min-height: 20vh;
-    margin-bottom: 5vh;
-}
-.get-your-discount__body-shirts-back{
-    position: absolute;
-    background-color:  rgba(0, 0, 0, 0.7);
 }
 
+.get-your-discount__body img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+/*
+.get-your-discount__body-shirts-image,
+.get-your-discount__body-jackets-image,
+.get-your-discount__body-trainers-image{
+    position: relative;
+    margin-bottom: 50px;
+}
+*/
 
 @media (min-width: 480px){
     .get-your-discount__header-titles{
