@@ -407,3 +407,44 @@
     padding: 17px 30px;
     font-weight: bold;
 }
+
+
+@media (max-width: 768px) {
+  .header__banner {
+    height: auto; /* Убираем фиксированную высоту */
+    padding: 50px 0; /* Добавляем верхний и нижний отступы */
+    text-align: center; /* Выравниваем текст по центру */
+  }
+
+  .header__banner-text {
+    font-size: 32px; /* Уменьшаем размер шрифта */
+    color: var(--ui-brand-color);
+    font-family: var(--font-primary); /* Изменяем шрифт */
+  }
+
+  .new-collections {
+    padding: 0 20px; /* Уменьшаем отступы */
+  }
+
+  .new-collections__text__small,
+  .new-collections__text__large,
+  .new-collections__othercolor {
+    font-size: 20px; /* Уменьшаем размер шрифта */
+    color: var(--ui-dark-shade-color); /* Цвет текста */
+    font-family: var(--font-primary); /* Изменяем шрифт */
+  }
+
+  .new-collections__square {
+    font-size: 20px; /* Уменьшаем размер шрифта */
+    color: var(--ui-brand-color); /* Цвет текста */
+    font-family: var(--font-primary); /* Изменяем шрифт */
+  }
+
+  .shop__new-collections__button {
+    padding: 14px 24px; /* Уменьшаем размер кнопки */
+    font-size: 14px; /* Уменьшаем размер шрифта кнопки */
+    color: var(--ui-light-shade-color); /* Цвет текста */
+    background-color: var(--ui-brand-color); /* Цвет фона кнопки */
+    font-family: var(--font-primary); /* Изменяем шрифт */
+  }
+}
