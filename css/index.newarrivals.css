@@ -180,13 +180,29 @@ text-decoration: none;
 }
 }
 
-@media (min-width: 990px) {
+@media (min-width: 1002px) {
     .arrivals__header,
     .arrivals__item {
-      flex-direction: row;
-      flex-basis: 15%;
-      margin-top: 1; /* Set the margin for three items per row */
-      margin-right: 20px; /* Додатковий відступ між рядками елементів */
+    flex: 0 1 calc(20% - 15px);
+    margin-bottom: 20px; 
+    padding: 15px;
     }
-    
+
+  .arrivals__items {
+    flex-direction: row;
+    margin-left: auto;
+    margin-right: auto;
   }
+
+  .arrivals__content {
+      display: flex;
+      flex-direction: row;
+      flex-basis: 20%;
+      justify-content: space-between;
+      margin-top: 0;
+      padding: 5px;
+    }
+
+}
+
+
