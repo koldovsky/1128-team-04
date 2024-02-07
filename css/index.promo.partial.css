@@ -13,7 +13,7 @@
   justify-content: flex-end;
   padding: 35px;
   align-items: center;
-  background-image: url(/img/promo-img.png);
+  background-image: url("/img/promo-img.png");
 }
 
 .promo__wrapper-label {
