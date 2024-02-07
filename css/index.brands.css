@@ -1,0 +1,71 @@
+.brands {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: block;
+    min-width: 320px;
+    max-width: 1200px;
+    margin: auto;
+  }
+.brands__carousel-btn-prev,
+.brands__carousel-btn-next {
+    padding: 0;
+    margin: 0;
+    border: none; /* Ensure button styles are reset */
+    background-color: transparent; /* Make background transparent or set to your desired color */
+    cursor: pointer; /* Change cursor to pointer to indicate clickable area */
+    display: flex; /* Use flex to center the image inside the button */
+    align-items: center;
+    justify-content: center;
+    height: auto;
+  }
+.brands__carousel-btn-prev img,
+.brands__carousel-btn-next img {
+    width: 100%; /* Make the SVG image fill the button */
+    height: auto; /* Maintain aspect ratio */
+    color: var(--custom-gray);
+}
+
+.brands__carousel-btn-prev:hover,
+.brands__carousel-btn-next:hover {
+    background-color: var(--wcu-advantages-hr-color); /* Change on hover */
+  }
+.brands__carousel {
+    display: flex; 
+}
+.brands__carousel-slides {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px; /* Increased gap for visual separation */
+    overflow: hidden;
+}
+.brands__carousel-slides-item {
+    box-sizing: border-box;
+    border: 2px solid var(--wcu-advantages-hr-color); /* Ensure the border is visible */
+    padding: 10px; /* Add padding to ensure the content is not touching the borders */
+    /* Remove the fixed calculation in favor of a more responsive approach below */
+    height: calc(100% - 20px); /* Adjust height if necessary */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--white-color);
+    margin: 0 10px; /* Optionally add margin for additional spacing */
+    height: 200px; /* Fixed height for consistency */
+    overflow: hidden;
+}
+.brands__carousel-slides-item img {
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+}
+/* Default width for very small screens - single slide takes full width */
+.brands__carousel-slides-item {
+    width: calc(100% - 20px); /* Adjust for gap and padding */
+}
+
+/* For screens wider than 768px - adjust for 2 slides */
+@media (min-width: 768px) {
+    .brands__carousel-slides-item {
+        width: calc((100% / 2) - 30px); /* Adjusted for 2 slides with gap and padding */
+    }
+}
