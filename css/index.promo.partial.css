@@ -1,19 +1,19 @@
 .promo {
+  background-image: url("img/promo-img.png");
   display: flex;
   flex-direction: column;
   width: 100%;
+  background-position: center;
 }
 
 .promo__wrapper {
   display: flex;
   flex-direction: row;
-  background-position: center;
   width: 100%;
   height: 215px;
   justify-content: flex-end;
   padding: 35px;
   align-items: center;
-  background-image: url("/img/promo-img.png");
 }
 
 .promo__wrapper-label {
