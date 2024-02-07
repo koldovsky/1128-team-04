@@ -7,37 +7,46 @@ const slides = [
 ];
 
 let slideIdx = 0;
-
 const slideContainer = document.querySelector('.brands__carousel-slides');
 
 function renderSlide() {
-    slideContainer.innerHTML = slides[slideIdx];
-    if (window.matchMedia('(min-width: 768px)').matches ) {
-        const secondSlideIdx = slideIdx + 1 >= slides.length ? 0 : slideIdx + 1;
-        slideContainer.innerHTML += slides[secondSlideIdx];
-        if (window.matchMedia('(min-width: 980px)').matches) {
-            const thirdSlideIdx = secondSlideIdx + 1 >= slides.length ? 0 : secondSlideIdx + 1;
-            slideContainer.innerHTML += slides[thirdSlideIdx];
-        }
+    slideContainer.innerHTML = '';
+    const slidesToShow = getSlidesToShow();
+
+    for (let i = 0; i < slidesToShow; i++) {
+        const index = (slideIdx + i) % slides.length;
+        // Wrap the image in a div with the class for styling
+        const slideMarkup = `<div class="brands__carousel-slides-item">${slides[index]}</div>`;
+        slideContainer.innerHTML += slideMarkup;
+    }
+}
+
+function getSlidesToShow() {
+    if (window.matchMedia('(min-width: 992px)').matches) {
+        return 4; // Show 4 slides on screens wider than 992px
+    } else if (window.matchMedia('(min-width: 768px)').matches) {
+        return 2; // Show 2 slides on screens wider than 768px
+    } else {
+        return 1; // Default to 1 slide on smaller screens
     }
 }
 
 function nextSlide() {
-    slideIdx = slideIdx + 1 >= slides.length ? 0 : slideIdx + 1;
+    slideIdx = (slideIdx + 1) % slides.length;
     renderSlide();
 }
 
 function prevSlide() {
-    slideIdx = slideIdx - 1 < 0 ? slides.length - 1 : slideIdx - 1;
+    slideIdx = (slideIdx - 1 + slides.length) % slides.length;
     renderSlide();
 }
 
 setInterval(nextSlide, 3000);
 
-const btnNext = document.querySelector('.product-carousel__button-next');
+const btnNext = document.querySelector('.brands__carousel-btn-next');
 btnNext.addEventListener('click', nextSlide);
 
-const btnPrev = document.querySelector('.product-carousel__button-prev');
+const btnPrev = document.querySelector('.brands__carousel-btn-prev');
 btnPrev.addEventListener('click', prevSlide);
 
 renderSlide();

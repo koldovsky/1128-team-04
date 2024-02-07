@@ -67,6 +67,10 @@
 .blog__cards-card-title a:hover {
   text-decoration: none;
 }
+.blog__cards-card-title a:hover {
+  color: var(--custom-black); /* Maintains the color */
+  text-decoration: underline; /* Adds an underline */
+}
 
 /* Card text styling */
 .blog__cards-card-text p {
@@ -77,6 +81,10 @@
 }
 .blog__cards-card-text a {
   text-decoration: none;
+}
+.blog__cards-card-text a:hover {
+  color: var(--custom-gray); /* Maintains the color */
+  text-decoration: underline; /* Adds an underline */
 }
 /* Media query for larger screens */
 @media screen and (min-width: 768px) {
