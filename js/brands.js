@@ -41,7 +41,6 @@ function prevSlide() {
     renderSlide();
 }
 
-setInterval(nextSlide, 3000);
 
 const btnNext = document.querySelector('.brands__carousel-btn-next');
 btnNext.addEventListener('click', nextSlide);
