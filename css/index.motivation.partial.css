@@ -1,10 +1,10 @@
 .motivation {
+  background-image: url(../img/motivation.jpg);
   display: flex;
   flex-direction: column;
   justify-content: center;
   width: 100%;
   height: 100vh;
-  background-image: url("/img/motivation.jpg");
   background-size: cover;
 }
 
@@ -52,7 +52,7 @@
 .motivation__btn:hover {
   color: var(--white-color);
   background-color: var(--ui-dark-brand-color);
-  transition: all 0.2s ease;
+  transition: all 0.3s ease;
 }
 
 @media (max-width: 768px) {

@@ -4,7 +4,7 @@
 }
 .contacts__main {
   position: absolute;
-  top: 16px;
+  top: 175px;
   right: 128px;
   background-color: #F5F5F5;
   padding: 20px;
@@ -48,7 +48,7 @@
 }
 .contacts__text a {
   font-family: "PT Sans", sans-serif;
-  font-size: 14px;
+  font-size: 16px;
   color: #717474;
   text-decoration: none;
   align-items: center;
@@ -60,11 +60,16 @@
 @media only screen and (max-width: 768px) {
   .contacts__main {
     position: absolute;
-    top: 70px;
+    top: 170px;
     right: 100px;
     min-width: 280px;
     min-height: 320px;
     margin: 40px auto;
     padding: 40px;
   }
+}
+
+.map {
+  display: flex;
+  width: 100%;
 }
