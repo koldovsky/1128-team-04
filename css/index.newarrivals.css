@@ -3,17 +3,19 @@
   padding-left: 0px;
   padding-right: 0px;
   padding-bottom: 60px;
-  text-decoration: none;
 }
 
 .arrivals__header {
-  text-align: center;
-  justify-content: center;
+  text-align: left;
+  justify-content: left;
   display: block;
   height: auto;
   width: auto;
 }
 .arrivals__title {
+  text-align: left;
+  justify-content: left;
+  padding-left: 70px;
   display: block;
   height: auto;
   width: auto;
@@ -57,6 +59,8 @@ text-decoration: none;
 }
 .arrivals__button {
   display: block;
+  height: 50px;
+  width: 145px;
   margin-left: 70px;
   margin-right: 90px;
   margin-top: 35px;
@@ -74,10 +78,24 @@ text-decoration: none;
   position: relative;
   }
 
+.arrivals__button:hover {
+  background-color: var(--custom-black);
+  color: var(--white-color);
+}
+
 .arrivals__items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
   margin-left: 35px;
   margin-right: 20px;
 }
+
+.arrivals__item {
+  flex: 1 1 calc(50% - 20px);
+  margin-bottom: 50px; 
+  padding: 20px;
+  }
 
 .arrivals__item-title-link {
   text-decoration: none;
@@ -107,3 +125,68 @@ text-decoration: none;
   font-size: 0.9375rem;
   font-weight: 600;
 }
+
+.arrivals__carousel-button {
+  border: none;
+  cursor: pointer;
+  outline: none;
+}
+
+.arrivals__carousel-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.arrivals__carousel-button svg {
+  fill: black;
+  width: 24px;
+  height: 24px;
+}
+
+.arrivals__carousel-button--previous {
+  transform: rotate(180deg); 
+}
+
+.arrivals__carousel-button--next {
+  transform: rotate(0deg); 
+}
+
+.arrivals__carousel-wrapper {
+  position: relative;
+}
+
+.arrivals__carousel-button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: var(--white-color);
+  border-radius: 50%;
+  padding: 12px;
+}
+
+.arrivals__carousel-button:first-child {
+  left: 0;
+}
+
+.arrivals__carousel-button:last-child {
+  right: 0;
+}
+
+@media (min-width: 768px) {
+.arrivals__item {
+  flex-basis: 50%;
+  flex-direction: row;
+}
+}
+
+@media (min-width: 990px) {
+    .arrivals__header,
+    .arrivals__item {
+      flex-direction: row;
+      flex-basis: 15%;
+      margin-top: 1; /* Set the margin for three items per row */
+      margin-right: 20px; /* Додатковий відступ між рядками елементів */
+    }
+    
+  }
