@@ -1,0 +1,70 @@
+.shopnow {
+  background: url(../img/shopnow.jpeg);
+  background-size: cover;
+  background-position: center;
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  font-family: "Bebas Neue";
+  justify-content: center;
+  align-items: start;
+  padding-left: 15%;
+}
+.shopnow__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  align-items: left;
+
+  gap: 30px;
+}
+.shopnow__svg-container {
+  width: 50px;
+  color: white;
+}
+.shopnow__title {
+  font-size: 22px;
+  color: #22232375;
+  margin-bottom: -20px;
+}
+.shopnow__subtitle {
+  font-size: 62px;
+  color: #222323;
+  text-align: start;
+}
+.shopnow__dot {
+  color: #f40106;
+}
+.shopnow__button {
+  background-color: #f40106;
+  font-size: 18.5px;
+  width: 163px;
+  height: 58px;
+  color: white;
+  font-weight: bold;
+  font-family: "PT sans";
+  border: none;
+  margin-top: 12px;
+}
+
+.shopnow__text-svg {
+  display: flex;
+  flex-direction: column;
+  
+}
+
+@media screen and (min-width: 820px) { 
+ .shopnow__subtitle {
+    font-size: 93px;
+ }   
+ .shopnow__text-svg {
+    flex-direction: row;
+    width: 550px
+ }
+ .shopnow__title {
+    font-size: 27px;
+ }
+ .shopnow__svg-container {
+    width: 100px;
+ }
+}
