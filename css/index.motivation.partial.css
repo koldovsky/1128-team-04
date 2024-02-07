@@ -52,7 +52,7 @@
 .motivation__btn:hover {
   color: var(--white-color);
   background-color: var(--ui-dark-brand-color);
-  transition: all 0.2s ease;
+  transition: all 0.3s ease;
 }
 
 @media (max-width: 768px) {

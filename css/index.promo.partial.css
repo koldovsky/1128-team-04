@@ -18,16 +18,25 @@
 
 .promo__wrapper-label {
   display: flex;
-  width: 25%;
-}
-
-.promo__wrapper-label-text span {
-  color: var(--red-color);
+  width: 27%;
   font-weight: bold;
 }
 
+.promo__wrapper-label-text {
+  margin: 0 7px;
+  font-weight: bold;
+}
+
+.promo__wrapper-label-text span {
+  font-weight: bold;
+  color: var(--red-color);
+  font-size: 20px;
+}
+
 .promo__wrapper-label-img {
-  margin: 5px;
+  margin: 7px;
+  align-items: center;
+  display: flex;
 }
 
 .promo__wrapper-form {
@@ -39,19 +48,26 @@
 .promo__wrapper-form-input {
   width: 100%;
   display: flex;
-  margin: 5px 0;
+  margin-bottom: 5px;
+  height: 50px;
+  text-align: center;
+}
+.promo__wrapper-form-input label {
+  width: 100%;
 }
 
 .promo__wrapper-form-btn {
+  height: 50px;
   border: none;
+  border-radius: 1px;
   width: 100%;
   background-color: var(--red-color);
   color: var(--white-color);
 }
 
 .promo__wrapper-form-btn:hover {
+  transition: all 0.3s ease;
   background-color: var(--custom-black);
-  transition: background-color all 0.2s ease;
 }
 
 @media (max-width: 768px) {
