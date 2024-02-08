@@ -75,6 +75,10 @@
     margin-left: 5px; 
 }
 
+.link-for-customer {
+    text-decoration: none;
+}
+
 .num-time {
   font-size: 36px;
   font-family: "bebasNeue";
