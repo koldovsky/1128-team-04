@@ -1,6 +1,7 @@
 /*header*/
 .get-your-discount__header{
     background-image: url('../img/get-your-discount.png');
+    filter: grayscale(20%);
     min-width: 320px;
     min-height: 446px;
     background-repeat: no-repeat;
@@ -12,6 +13,9 @@
     background-position: center;
     margin-top: 70px;
     margin-bottom: 30px;
+}
+.get-your-discount__header:hover{
+    filter: grayscale(0%);
 }
 
 .get-your-discount__header-titles{
@@ -41,7 +45,7 @@
     color: red;
 }
 
-.get-your-discount__header-button button{
+.get-your-discount__header-button button {
     position: absolute;
     color: black;
     background-color: white;
@@ -56,14 +60,16 @@
     left: 7%;
     top: 65%;
     border: none;
+    transition: color 1.3s ease-out, background-color 0.7s ease-out;
 }
 
-.get-your-discount__header-button :hover{
+.get-your-discount__header-button button:hover {
     color: white;
     background-color: black;
 }
 
 /*body*/
+
 .get-your-discount__body-shirts-image,
 .get-your-discount__body-jackets-image,
 .get-your-discount__body-trainers-image{
@@ -87,14 +93,25 @@
     background-color: rgba(34,35,35,0.89);
 }
 
-.get-your-discount__body a{
+.get-your-discount__body a {
+    position: relative;
     color: white;
     text-decoration: none;
 }
 
-.get-your-discount__body a:hover{
-    color: white;
-    text-decoration: underline;
+.get-your-discount__body a::before {
+    content: "";
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    width: 0;
+    height: 2px; 
+    background-color: white;
+    transition: width 0.6s ease-out; 
+}
+
+.get-your-discount__body a:hover::before {
+    width: 100%; 
 }
 
 .get-your-discount__body-shirts-title{
